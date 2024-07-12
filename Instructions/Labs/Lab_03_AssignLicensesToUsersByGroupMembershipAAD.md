@@ -25,28 +25,29 @@ After completing this lab, you will be able to complete the following exercises:
 
 ### Task 1 - Check to see if USER01 has access to Office 365
  
-1. Launch a new **InPrivate** browser window.
+1. In the Azure portal, search for and  select **Microsoft Entra ID**.
 
-2. Connect to [https://www.office.com](https://www.office.com).
+1. In the left navigation menu, under **Manage**, select **Users**
 
-3. Select Sign in and connect as **Delia Dennis**, you can get the details of the USER01 from the enviornment details page:
+1. From the Microsoft Entra ID **Users** section, click on **Delia Dennis** user, copy the **Username**  and from the upper navigation tab click on **Reset Password** and copy the temporary password.
+
+    ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/azureaad.png)
+
+1. Launch a new **InPrivate** browser window. Copy and paste this link in the browser window [https://www.office.com](https://www.office.com).
+
+1. Select Sign in and connect as **Delia Dennis**, 
 
    | **Setting**| **Value**|
    | :--- | :--- |
    | Username | delia.dennis@`your domain name.com`|
    | Password| Enter the password for Delia Dennis|
 
-4. To find the username for **Delia Dennis**, login to the Azure portal using the credentials given in the **Environment Details** page navigate to the Users section of the Microsoft Entra ID, and copy the user name.
 
-5. From the Microsoft Entra ID **Users** section, click on **Delia Dennis** user, and from the upper tab click on **Reset Password** and copy the temporary password and login to office.com and reset the password to **Pa55w.rd@123**
-
-    ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/azureaad.png)
-
-6. You should connect to the Office.com website, but see a message indicating you don't have a license.
+1. You should connect to the Office.com website, but see a message indicating you don't have a license.
 
       ![Screen image the Office.com website with Delia Dennis logged in but no office applications are available, because no license is assigned.](./media/msoffice.png)
     
-7. Close the browser window.
+1. Close the browser window.
 
 ### Task 2 -  Create a security group in Microsoft Entra ID
 
