@@ -1,4 +1,4 @@
-
+ 
 # Lab 01: Manage User Roles
 
 ## Lab scenario
@@ -175,7 +175,9 @@ This task will use an alternative method to remove the assigned role; it will us
 
       >**Note:** You do not need to fill out all the fields. As per the sample data provided, you mainly need to add the username information. Be careful not to leave any extra white spaces in the Excel sheet else Bulk creation will fail.
        
-      >**Note:** You can copy the domain name for all the users in the Azure portal from the Overview page, copy the primary domain name, and replace **<<<enter your domain name>>>** with primary domain name for all the users.
+   >**Note:** You can copy the domain name  in the Azure portal from the Microsoft Entra ID Overview page, copy the primary domain name, and replace **<<<enter your >>>** with primary domain name for all the users.
+
+   ![Bulk import using csv file entry](./media/xce1.png)
 
 3. Once you are done with replacing the domain names, save the file as **BulkUser** in the **Downloads** section and close the file.
 
