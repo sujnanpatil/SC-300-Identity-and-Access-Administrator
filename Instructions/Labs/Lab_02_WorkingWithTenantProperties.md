@@ -82,11 +82,9 @@ After completing this lab, you will be able to:
 
 2. Under **Tenant properties**, locate **Country or region** and review the information.
 
-    **IMPORTANT** - When the tenant is created, the Country or region are specified at that time. This setting cannot be changed later.
-
-3. In the **Properties** page, locate **Location** and review the information.
-
    ![B2B Collaboration Review permissions box with message](./media/SC-300-marketing.png)
+
+   **IMPORTANT** - When the tenant is created, the Country or region are specified at that time. This setting cannot be changed later.
 
 ## Task 3 - Finding the tenant ID
 
