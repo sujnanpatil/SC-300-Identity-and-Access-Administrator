@@ -169,7 +169,7 @@ This task will use an alternative method to remove the assigned role; it will us
 
    >**Note:** Sign in with the ODL user credentials present in the **Environment page** in order to be able to edit the excel sheet.
       
-2. The .csv template provides you with the fields included with the user profile. This includes the required username, display name, and initial password. You can also complete optional fields, such as Department and Usage location, at this time. The following screenshot is an example of how you can complete the .csvfile: 
+2. The .csv template provides you with the fields included with the user profile. This includes the required username, display name, and initial password.The following screenshot is an example of how you can complete the .csvfile: 
 
     ![Bulk import using csv file entry](./media/bulk121.png)
 
