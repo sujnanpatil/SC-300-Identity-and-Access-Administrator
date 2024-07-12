@@ -195,6 +195,8 @@ This task will use an alternative method to remove the assigned role; it will us
 
    ![Bulk import using csv file entry](./media/newcruser.png)
 
+   >**Note:** Refresh the page to see the users
+
 ## Task 2 - Addition of users using PowerShell
 
 1. Open PowerShell as an administrator. This can be done by searching for PowerShell in Windows and choosing Run as administrator. 
