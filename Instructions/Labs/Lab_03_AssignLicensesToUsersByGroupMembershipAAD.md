@@ -55,8 +55,11 @@ After completing this lab, you will be able to complete the following exercises:
 ### Task 2 -  Create a security group in Microsoft Entra ID
 
 1. In the search resources tab in the azure portal, type **Microsoft Entra ID** and navigate to it.
+
 2. In the left navigation, under **Manage**, select **Groups**.
+
 3. In the Groups page, on the menu, select **New group**.
+
 4. Create a group using the following information:
 
    | **Setting**| **Value**|
@@ -69,9 +72,13 @@ After completing this lab, you will be able to complete the following exercises:
    ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/odluser.png)
 
 5. Select the **No members selected** text under Members.
+
 6. Search for and select **Delia Dennis**  from the list of users.
+
 7. Select the **Select** button.
+
 8. Select the **Create** button.
+
 9. When complete, verify the group named **sg-SC300-O365** is shown in the **All groups** list.
 
    >**Note:** Kindly click the **Refresh** button if you are not able to see the newly created group.
@@ -86,15 +93,18 @@ After completing this lab, you will be able to complete the following exercises:
 ### Task 3 - Assign a license to a group
 
 1. In the **All groups** list, select **sg-SC300-O365**.
+
 2. In the Marketing page, in the left navigation pane under **Manage**, select **Licenses**.
+
 3. On the menu, select **+ Assignments**.
+
 4. In the update license assignments page, under **Select licenses**, review the list of available licenses and then select the check box for **Office 365 E3**.
 
    **Tip** - When multiple licenses are selected, you can use the Review license options menu to select a specific license and view the license option for that license.
 
    ![Screen image displaying licenses selected and assigned to a group. The review license menu is also selected displaying multiple selection options.](./media/e3.png)
 
-6. Select **Save**.
+5. Select **Save**.
 
 ### Taks 4 - Confirm the Office 365 license
 
@@ -189,12 +199,19 @@ As your company grows, manually group management is too time consuming. Since st
 **Note** - The population of Dynamic group membership may take up to 15 minutes.
 
 1. Select on the **Home** `Microsoft Entra ID`.
+
 2. Launch **Microsoft Entra ID**.
+
 3. In the **Manage** menu Select on **Groups**.
+
 4. In the filter box type **SC300** and your newly created group will be listed.
+
 5. Select on **SC300-myDynamicGroup** to open the group.
+
 6. Notice that it shows that it contains **Direct members**.
+
 7. Select on **Members** in the **Manage** menu.
+
 8. Review the members.
 
      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
