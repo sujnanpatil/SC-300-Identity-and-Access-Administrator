@@ -56,7 +56,7 @@ Next, let's examine how to set up Conditional Access policy rules that would enf
 
     ![](./media/lab08-sc300-4.png)
    
-1. From the menu, click on **Create new policy**.
+1. From the menu, click on **+ Create new policy**.
    
     ![](./media/lab08-sc300-5.png)
 
@@ -75,6 +75,10 @@ Next, let's examine how to set up Conditional Access policy rules that would enf
 1. On **Disable security policy** pop up, click on Disable.
    
     ![](./media/lab08-sc300-8.png)
+
+1. Again navigate to **Conditional access** blade, from the menu, click on **+ Create new policy**.
+   
+    ![](./media/lab08-sc300-5.png)
    
 1. Name your policy, for example **MFA_for_Delia**
 
@@ -131,7 +135,7 @@ Next, let's examine how to set up Conditional Access policy rules that would enf
 
     - To get the username for **Delina** follow the below steps:
   
-    - In Azure portal search and select **Microsoft Entra ID** and from left navigation pane select **User** then select **DeliaD**.
+    - In Azure portal search and select **Microsoft Entra ID** and from left navigation pane under **Manage** section and select **Users** then choose **Delia Dennis**.
     - On the **Delia Dennis** user blade, copy the **User principal name** record in notepad.
 
       ![](./media/lab08-sc300-11.png)
@@ -151,7 +155,7 @@ Next, let's examine how to set up Conditional Access policy rules that would enf
 
 1. Click on **Next** on **More information required** pop up.
 
-    ![](./media/lab08-sc300-13.png)
+    ![](./media/lab08-sc300-14.png)
 
 1. You can see that because of the Conditional Access rule we created for Delia, MFA is required to launch Office 365 home page.
 
