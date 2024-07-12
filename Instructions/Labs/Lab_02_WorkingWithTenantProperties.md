@@ -46,7 +46,7 @@ After completing this lab, you will be able to:
 
      ![Azure portal menu with Azure Active Directory selected](./media/irt1.png)
 
-6. Click on **Add domain** page of Microsoft 365 Admin center, paste the value **sales.labtenant.onmicrosoft.com** and click on **Use this Domian**.
+6. Click on **Add domain** page of Microsoft 365 Admin center,paste the value **sales.labtenant.onmicrosoft.com** and click on **Use this Domian**.
 
 7. Click on **Continue** in the verify your domain page and click on **Verify** option under Add a record to verify ownership.
    
