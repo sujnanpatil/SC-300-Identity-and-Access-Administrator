@@ -91,6 +91,8 @@ Follow these steps to update or remove an existing role assignment.
 7. Select **Remove**.
    ![](./media/lab11-10.png)
 
+8. In the Remove dialog box, review the information and then select **Yes**.
+
 ### Review
 In this lab, you have completed:
 - Assigned Azure resource roles
