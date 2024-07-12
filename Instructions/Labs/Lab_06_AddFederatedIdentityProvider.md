@@ -107,11 +107,11 @@ After completing this lab, you will be able to:
 
 4. Select **All identity providers** from the menu on the left.
 
-   ![Screen image the Office.com website with Delia Dennis logged in but no office applications are available, because no license is assigned.](./media/federation.png)  
+   ![Screen image the Office.com website with Delia Dennis logged in but no office applications are available, because no license is assigned.](./media/federation1.png)  
 
-5. Microsoft provides a direct federation for **Google** as an identity provider.  This can be initiated by selecting **+ Google** from the **External Identities | All identity providers** page
+5. Microsoft provides a direct federation for **Google** as an identity provider.  This can be initiated by selecting **Configure** for google from the **External Identities | All identity providers** page
  
-6. After selecting + Google, another page will open with additional information that is required to configure Google as an identity provider.  
+6. After selecting configure, another page will open with additional information that is required to configure Google as an identity provider.  
 
 7. Enter the **Client ID** and **Client secret** you obtained earlier.
 
