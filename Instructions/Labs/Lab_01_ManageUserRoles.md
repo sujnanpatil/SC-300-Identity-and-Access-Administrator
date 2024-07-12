@@ -119,6 +119,7 @@ After completing this lab, you will be able to complete the following exercises:
 ## Task 2 - Check application permissions
 
 1. Launch a new InPrivate browser window.
+
 2. Open the Azure Portal [https://portal.azure.com](https://portal.azure.com) as Chris Green.
 
     | **Setting**| **Value**|
@@ -126,13 +127,13 @@ After completing this lab, you will be able to complete the following exercises:
     | User name| ChrisG@`your domain name.com`|
     | Password| Enter the unique and secure password you created earlier |
 
-3. If you see a **Welcome to Microsoft Azure** tour dialog, Select the **Maybe Later** button.
-4. Search on and select **Enterprise applications** in the search dialog at the top of the screen.
-5. Click on  **+ New Application**.Notice that **+ Create your own application** is available now.
+3. Search on and select **Enterprise applications** in the search dialog at the top of the screen.
+
+4. Click on  **+ New Application**.Notice that **+ Create your own application** is available now.
 
    >**Note:** This role now has the ability to add applications to the tenant.  We will experiment more with this feature in later labs.
 
-7. Sign out of the Chris Green instance of the Azure Portal and close the browser.
+5. Sign out of the Chris Green instance of the Azure Portal and close the browser.
 
 ## Exercise 3 - Remove a role assignment
 
