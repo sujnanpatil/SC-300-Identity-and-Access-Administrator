@@ -16,11 +16,11 @@ After completing this lab, you will be able to:
 
 ![Azure portal menu with Azure Active Directory selected](./media/arch002.png)
 
-#### Estimated time: 15 minutes
+## Estimated time: 15 minutes
 
-### Exercise 1 - Create a custom subdomains 
+## Exercise 1 - Create a custom subdomains 
 
-#### Task 1 - Create a custom subdomain name
+## Task 1 - Create a custom subdomain name
 
 1. Select the **Show portal menu** hamburger icon and then select **Microsoft Entra ID**.
 
@@ -53,9 +53,9 @@ After completing this lab, you will be able to:
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-### Exercise 2 - Changing the tenant display name
+## Exercise 2 - Changing the tenant display name
 
-#### Task 1 - Set the tenant name and technical contact
+## Task 1 - Set the tenant name and technical contact
 
 1. In the **Custom domain names** page, from the left-hand navigation pane, in the **Manage** section, select **Properties**.
 
@@ -76,7 +76,7 @@ After completing this lab, you will be able to:
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-#### Task 2 - Review the Country or region and other values associated with your tenant
+## Task 2 - Review the Country or region and other values associated with your tenant
 
 1. In the **Microsoft Entra ID** page, in the Manage section, select **Properties**.
 
@@ -88,7 +88,7 @@ After completing this lab, you will be able to:
 
    ![B2B Collaboration Review permissions box with message](./media/SC-300-marketing.png)
 
-#### Task 3 - Finding the tenant ID
+## Task 3 - Finding the tenant ID
 
 Azure subscriptions have a trust relationship with Microsoft Entra ID. Microsoft Entra ID is trusted to authenticate users, services, and devices for the subscription. Each subscription has a tenant ID associated with it, and there are a few ways you can find the tenant ID for your subscription.
 
@@ -98,9 +98,9 @@ Azure subscriptions have a trust relationship with Microsoft Entra ID. Microsoft
 
    ![Screen image displaying the Tenant properties page with the Tenant ID box highlighted](./media/TenantID.png)
 
-### Exercise 3 - Setting your privacy information
+## Exercise 3 - Setting your privacy information
 
-#### Task 1 - Adding your privacy info on Microsoft Entra ID, including Global privacy contact and Privacy statement URL
+## Task 1 - Adding your privacy info on Microsoft Entra ID, including Global privacy contact and Privacy statement URL
 
 Microsoft strongly recommends you add both your global privacy contact and your organization's privacy statement, so your internal employees and external guests can review your policies. Because privacy statements are uniquely created and tailored for each business, we strongly recommend you contact a lawyer for assistance.
 
@@ -131,7 +131,7 @@ You add your organization's privacy information in the **Properties** area of 
 
 3. Select **Save**.
 
-#### Task 2 - Check your Privacy Statement
+## Task 2 - Check your Privacy Statement
 
 1. Return to the Azure Home screen - Dashboard.
 2. In the upper-righthand corner of the UI, Select on your username.
