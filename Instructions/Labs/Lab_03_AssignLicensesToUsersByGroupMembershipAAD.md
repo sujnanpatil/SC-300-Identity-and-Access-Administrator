@@ -23,7 +23,7 @@ After completing this lab, you will be able to complete the following exercises:
 
  In this exercise, you will create a security group to enhance access control and security measures and then include a user within the group to grant them specific permissions and restrictions as part of a broader security framework
 
-### Task 1 - Check to see if USER01 has access to Office 365
+### Task 1 - Check to see if user has access to Office 365
  
 1. In the Azure portal, search for and  select **Microsoft Entra ID**.
 
