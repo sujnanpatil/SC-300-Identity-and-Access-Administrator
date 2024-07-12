@@ -172,26 +172,26 @@ This task will use an alternative method to remove the assigned role; it will us
 2. The .csv template provides you with the fields included with the user profile. This includes the required username, display name, and initial password.The following screenshot is an example of how you can complete the .csvfile: 
 
     ![Bulk import using csv file entry](./media/bulk121.png)
-
-      >**Note:** You do not need to fill out all the fields. As per the sample data provided, you mainly need to add the username information. Be careful not to leave any extra white spaces in the Excel sheet else Bulk creation will fail.
        
-   >**Note:** You can copy the domain name  in the Azure portal from the Microsoft Entra ID Overview page, copy the primary domain name, and replace **<<<enter your >>>** with primary domain name for all the users.
+3. Copy the domain name  in the Azure portal from the Microsoft Entra ID Overview page, copy the primary domain name, and replace **<<<enter your >>>** with primary domain name for all the users.
 
    ![Bulk import using csv file entry](./media/xce12.png)
 
-3. Once you are done with replacing the domain names, save the file as **BulkUser** in the **Downloads** section and close the file.
+   >**Note:** You do not need to fill out all the fields. As per the sample data provided, you mainly need to add the username information. Be careful not to leave any extra white spaces in the Excel sheet else Bulk creation will fail.
 
-4. In the Microsoft Entra ID menu, select **Users** under **Manage**.
+4. Once you are done with replacing the domain names, save the file as **BulkUser** in the **Downloads** section and close the file.
 
-5. On the **Users | All users** tile, select the **Bulk operations** drop-down arrow and then **Bulk create**.
+5. In the Microsoft Entra ID menu, select **Users** under **Manage**.
+
+6. On the **Users | All users** tile, select the **Bulk operations** drop-down arrow and then **Bulk create**.
 
    ![Bulk import using csv file entry](./media/bulkcreate.png)
 
-6. Selecting **Bulk create** will open a new tile. From the upload button browse to **Downloads** section and choose the file named as **BulkUser** and select **Open**.
+7. Selecting **Bulk create** will open a new tile. From the upload button browse to **Downloads** section and choose the file named as **BulkUser** and select **Open**.
 
-7. You will be notified that the file has been uploaded successfully. Choose **Submit** to add the users. 
+8. You will be notified that the file has been uploaded successfully. Choose **Submit** to add the users. 
 
-8. After the users have been created, you will be prompted that the creation has succeeded.  Close the Bulk create users tile and the new users will be populated in the list of **Users | All users**.
+9. After the users have been created, you will be prompted that the creation has succeeded.  Close the Bulk create users tile and the new users will be populated in the list of **Users | All users**.
 
    ![Bulk import using csv file entry](./media/newcruser.png)
 
@@ -248,12 +248,8 @@ This task will use an alternative method to remove the assigned role; it will us
     New-AzureADUser -DisplayName "New User" -PasswordProfile $PasswordProfile -UserPrincipalName "NewUser@labtenantname.com" -AccountEnabled $true -MailNickName "Newuser"
     ```
 
-    >**Note** - Replace **labtenantname.com** with the **azurehol...onmicrosoft.com** name assigned by the lab tenant.You can find it in the Primary domain section of Microsoft Entra ID Overview page
+    >**Note** - Replace **labtenantname.com** with the domain name  you  copied in Exercise 4 Task 1 step number 3. 
 
-## Experiment with managing users
-
-You can add and remove users with the Microsoft Entra ID page.  However, users can be created and roles can be assigned using the scripting.  Experiment with giving the Chris Green user account a different role using script. 
- 
 ## Exercise 5 - Remove a user from Microsoft Entra ID
 
 It may happen that an account is deleted and then needs to be recovered. You need to verify you can recover an account that has been deleted recently.
