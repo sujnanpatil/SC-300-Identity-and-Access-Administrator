@@ -22,7 +22,7 @@ After completing this lab, you will be able to complete the following exercises:
 
 ![Bulk import using csv file entry](./media/archentra.png)
 
-### Exercise 1 - Create a new user and test their application admin rights
+## Exercise 1 - Create a new user and test their application admin rights
   
   In this exercise, you will create  a new user account and verify their administrative privileges by testing their application access and control.
 
