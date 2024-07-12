@@ -154,25 +154,21 @@ Part of your duties as an Microsoft Entra administrator is to create different t
 
 As your company grows, manually group management is too time consuming. Since standardizing the directory, you can now take advantage of dynamic groups. You must create a new dynamic group to ensure you're ready for dynamic group creation in production.
 
-1. Sign in to the [https://portal.azure.com](https://portal.azure.com) with an account that is assigned the Global administrator or User administrator role in the tenant.
+1. In the Microsoft Entra ID page, in the the left navigation pane under **Manage**, select **Groups**, and then select **New group**.
 
-2. Select **Microsoft Entra ID**.
+1. On the New Group page, under **Group type**, select **Security**.
 
-3. Under **Manage**, select **Groups**, and then select **New group**.
+1. In the **Group name** box, enter **SC300-myDynamicGroup**.
 
-4. On the New Group page, under **Group type**, select **Security**.
+1. Select the **Membership type** menu and then select **Dynamic User**.
 
-5. In the **Group name** box, enter **SC300-myDynamicGroup**.
+1. Select an **Owner** for the group(ODL user account).
 
-6. Select the **Membership type** menu and then select **Dynamic User**.
+1. Under **Dynamic user members**, select **Add dynamic query**.
 
-7. Select an **Owner** for the group(ODL user account).
+1. On the right above the **Rule syntax** box, select **Edit**.
 
-7. Under **Dynamic user members**, select **Add dynamic query**.
-
-8. On the right above the **Rule syntax** box, select **Edit**.
-
-9. In the Edit rule syntax pane, enter the following expression in the **Rule syntax** box:
+1. In the Edit rule syntax pane, enter the following expression in the **Rule syntax** box:
 
    ```powershell
    user.objectid -ne null
@@ -182,11 +178,11 @@ As your company grows, manually group management is too time consuming. Since st
 
    ![Screen image displaying the dynamic group membership rules page with rule syntax highlighted](./media/usersyn.png)
 
-10. Click on **Ok**
+1. Click on **Ok**
 
-11. Select **Save**. The new dynamic group will now include B2B guest users as well as member users.
+1. Select **Save**. The new dynamic group will now include B2B guest users as well as member users.
 
-12. On the New group page, select **Create** to create the group.
+1. On the New group page, select **Create** to create the group.
 
 ### Task 2 - Verify the members have been added
 
