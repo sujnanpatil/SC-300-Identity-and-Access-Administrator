@@ -43,9 +43,9 @@ After completing this lab, you will be able to complete the following exercises:
 
 5. Copy the generated password to a location you can remember it for the next task.
 
-    >**Note:** You will have to change the password upon first login to this account
-    
-    >**Note:** Copy the username Of Chris Green in order to login in the next task
+      >**Note:** You will have to change the password upon first login to this account
+      
+      >**Note:** Copy the username Of Chris Green in order to login in the next task
 
 6. Click on **Review + Create** and subsequently click on **Create**. The user is now created and registered to your organization.
 
