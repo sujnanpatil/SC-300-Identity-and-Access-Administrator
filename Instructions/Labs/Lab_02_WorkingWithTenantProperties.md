@@ -98,11 +98,12 @@ Azure subscriptions have a trust relationship with Microsoft Entra ID. Microsoft
 
 ## Exercise 3 - Setting your privacy information
 
-## Task 1 - Adding your privacy info on Microsoft Entra ID, including Global privacy contact and Privacy statement URL
+### Task 1 - Adding your privacy info on Microsoft Entra ID, including Global privacy contact and Privacy statement URL
 
 Microsoft strongly recommends you add both your global privacy contact and your organization's privacy statement, so your internal employees and external guests can review your policies. Because privacy statements are uniquely created and tailored for each business, we strongly recommend you contact a lawyer for assistance.
 
-   **NOTE** - For information about viewing or deleting personal data, see [https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure). For more information about GDPR, see the [https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted).
+   **NOTE** - For information about viewing or deleting personal data, see [https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure).
+            - For more information about GDPR, see the [https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted).
 
 You add your organization's privacy information in the **Properties** area of Microsoft Entra ID. To access the Properties area and add your privacy information:
 
@@ -113,38 +114,38 @@ You add your organization's privacy information in the **Properties** area of 
      ![](./media/properties.png)
 
 - **Global privacy contact** - `Delia Dennis` **your Azure lab domain**
+     
      - Delia Dennis is a built-in users in your Azure lab tenant who works as an IT Admin, we will use him as the Privacy contact.
+     
      - This person is also who Microsoft contacts if there's a data breach. If there's no person listed here, Microsoft contacts your global administrators.
 
-    >**Note:** Navigate to the **Environment Details** page and copy the email ID of **Delia Dennis**
+    >**Note:** Navigate to the **Microsoft Entra ID** Users section and copy the email ID of **Delia Dennis**
 
 - **Privacy statement URL** -  <https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/blob/master/Allfiles/Labs/Lab2/SC-300-Lab_ContosoPrivacySample.pdf>
 
      - In sample Privacy PDF is provided in your labs directory.
      - Type the link to your organization's document that describes how your organization handles both internal and external guest's data privacy.
 
-  >**Note:** -If you don't include either your own privacy statement or your privacy contact, your external guests will see text in the Review Permissions box that says, **<your org name\>** has not provided links to their terms for you to review. For example, a guest user will see this message when they receive an invitation to access an organization through B2B collaboration.
-
-    ![B2B Collaboration Review permissions box with message](./media/active-directory-no-privacy-statement-or-contact.png)
-
 3. Select **Save**.
 
 ## Task 2 - Check your Privacy Statement
 
 1. Return to the Azure Home screen - Dashboard.
-2. In the upper-righthand corner of the UI, Select on your username.
-3. Choose **View account** from the dropdown menu.
 
-     **A new browser tab will open automatically.**
+2. In the upper-righthand corner of the Azure portal, select on your username.
+
+3. Choose **View account** from the dropdown menu.A new browser tab will open automatically.     
 
 4. Select the **Settings & Privacy** on the left-hand menu.
-5. Select **Privacy**.
-6. Under **Organization's notice** select the **View** item next to Contoso Marketing organizational privacy statement.
 
-     **A new browser tab will open with the Privacy PDF file you linked to displayed.**
+5. Select **Privacy**.
+
+6. Under **Organization's notice** select the **View** item next to Contoso Marketing organizational privacy statement.A new browser tab will open with the Privacy PDF file you linked to displayed.
 
 7. Review the sample Privacy statement.
+
 8. Close the browser tab with the PDF in it.
+
 9. Close the browser tab displaying the **My Account** items.
 
 ## Review
