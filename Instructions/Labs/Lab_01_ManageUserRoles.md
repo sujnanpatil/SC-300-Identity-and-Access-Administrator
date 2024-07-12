@@ -26,7 +26,7 @@ After completing this lab, you will be able to complete the following exercises:
   
   In this exercise, you will create  a new user account and verify their administrative privileges by testing their application access and control.
 
-### Task 1 - Add a new user
+## Task 1 - Add a new user
 
 1. In the Azure portal, search for and  select **Microsoft Entra ID**.
 
@@ -37,10 +37,8 @@ After completing this lab, you will be able to complete the following exercises:
     | **Setting**| **Value**|
     | :--- | :--- |
     | User name| ChrisG|
-    | Name| Chris Green|
-    | First name| Chris|
-    | Last name| Green|
-
+    | Display Name| Chris Green|
+    
 4. Mark the **Auto-generate password** option.
 
 5. Copy the generated password to a location you can remember it for the next task.
@@ -51,7 +49,7 @@ After completing this lab, you will be able to complete the following exercises:
 
 6. Click on **Review + Create** and subsequently click on **Create**. The user is now created and registered to your organization.
 
-#### Task 2 - Login and try to create an app
+## Task 2 - Login and try to create an app
 
 1. Launch a new **InPrivate** browser window.
 2. Open the Azure Portal [https://portal.azure.com](https://portal.azure.com) as Chris Green.
@@ -80,11 +78,11 @@ After completing this lab, you will be able to complete the following exercises:
 10. Select on **ChrisG** name in the upper-right corner and sign out.
 
 
-### Exercise 2 - Assign the application admin role and create an app
+## Exercise 2 - Assign the application admin role and create an app
 
  Using Microsoft Entra ID, you can designate limited administrators to manage identity tasks in less-privileged roles. Administrators can be assigned for such purposes as adding or changing users, assigning administrative roles, resetting user passwords, managing user licenses, and managing domain names.
 
-#### Task 1 - Assign a role to a user
+## Task 1 - Assign a role to a user
 
 1. If you are not already logged in as a Global Administrator role, open the Azure Portal and log in.
 2. Navigate to **Microsoft Entra ID**  page.
@@ -108,7 +106,7 @@ After completing this lab, you will be able to complete the following exercises:
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
-#### Task 2 - Check application permissions
+## Task 2 - Check application permissions
 
 1. Launch a new InPrivate browser window.
 2. Open the Azure Portal [https://portal.azure.com](https://portal.azure.com) as Chris Green.
@@ -126,11 +124,11 @@ After completing this lab, you will be able to complete the following exercises:
 
 7. Sign out of the Chris Green instance of the Azure Portal and close the browser.
 
-### Exercise 3 - Remove a role assignment
+## Exercise 3 - Remove a role assignment
 
 In this exercise, you will remove the role assignment that was assigned in the previous task.
 
-#### Task 1 - Remove the application administrator from Chris Green
+## Task 1 - Remove the application administrator from Chris Green
 
 This task will use an alternative method to remove the assigned role; it will use the **Roles and administrators** option in Entra ID.
 
@@ -150,9 +148,9 @@ This task will use an alternative method to remove the assigned role; it will us
 
 8. Close Microsoft Entra ID.
 
-### Exercise 4 - Bulk import of users
+## Exercise 4 - Bulk import of users
 
-#### Task 1 - Bulk operations for creating users with a .csv file
+## Task 1 - Bulk operations for creating users with a .csv file
 
 1. In your Lab Vm  navigate to **C:\AllFiles\AllFiles.zip\SC-300-Identity-and-Access-Administrator-prod\Allfiles\Labs\Lab1** and open the **SC-300BulkUser** excel file and modify the domain names for all the users.
 
@@ -182,7 +180,7 @@ This task will use an alternative method to remove the assigned role; it will us
 
    ![Bulk import using csv file entry](./media/newcruser.png)
 
-#### Task 2 - Addition of users using PowerShell
+## Task 2 - Addition of users using PowerShell
 
 1. Open PowerShell as an administrator. This can be done by searching for PowerShell in Windows and choosing Run as administrator. 
 
@@ -239,11 +237,11 @@ This task will use an alternative method to remove the assigned role; it will us
 
 You can add and remove users with the Microsoft Entra ID page.  However, users can be created and roles can be assigned using the scripting.  Experiment with giving the Chris Green user account a different role using script. 
  
-### Exercise 5 - Remove a user from Microsoft Entra ID
+## Exercise 5 - Remove a user from Microsoft Entra ID
 
 It may happen that an account is deleted and then needs to be recovered. You need to verify you can recover an account that has been deleted recently.
 
-#### Task 1 - Remove a User
+## Task 1 - Remove a User
 
 1. Browse to [https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview).
 
@@ -259,7 +257,7 @@ It may happen that an account is deleted and then needs to be recovered. You nee
 
 5. Review the dialog box and then select **Yes**.
 
-#### Task 2 - Restore a deleted user
+## Task 2 - Restore a deleted user
 
 1. In the Users page, in the left navigation, select **Deleted users**.
 
@@ -276,11 +274,11 @@ It may happen that an account is deleted and then needs to be recovered. You nee
 6. Verify the user has been restored.
 
 
-### Exercise 6 - Add a  license to a user account
+## Exercise 6 - Add a  license to a user account
 
 Some user accounts in your organization will not be provided all available products in their assigned license or will need updates or additions to their license assignment. You need to ensure you are able to update a user account's license assignment in Azure AD.
 
-#### Task 1 - Find your unlicensed user in Microsoft Entra ID
+## Task 1 - Find your unlicensed user in Microsoft Entra ID
 
 1. Browse to [https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview).
 
