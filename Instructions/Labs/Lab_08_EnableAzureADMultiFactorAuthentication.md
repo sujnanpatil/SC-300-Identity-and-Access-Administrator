@@ -20,11 +20,11 @@ After completing this lab, you will be able to complete the following exercises:
 
 >**IMPORTANT** - A Microsoft Entra ID Premium license is required for this exercise.
 
-### Exercise 1 - Review and enable Multi-factor Authentication in Azure
+## Exercise 1 - Review and enable Multi-factor Authentication in Azure
 
   In this exercise, you will learn how to  enhance security, and ensure Multi-factor Authentication (MFA) is configured and enabled in your Azure environment, adding an extra layer of protection for your accounts and data.
 
-#### Task 1 - Review Azure Multi-Factor Authentication options
+### Task 1 - Review Azure Multi-Factor Authentication options
 
 1. In the Azure portal, use the search feature and search for **multi-factor**.
 
@@ -42,7 +42,7 @@ After completing this lab, you will be able to complete the following exercises:
 
 6. You can also enable or disable app passwords here, which allow users to create unique account passwords for apps that don't support multi-factor authentication. This feature lets the user authenticate with their Microsoft Entra ID identity using a different password specific to that app.
 
-#### Task 2 - Setup conditional access rules for MFA for Delia Dennis
+### Task 2 - Setup conditional access rules for MFA for Delia Dennis
 
 Next, let's examine how to set up Conditional Access policy rules that would enforce MFA for guest users accessing specific apps on your network.
 
@@ -97,7 +97,7 @@ Next, let's examine how to set up Conditional Access policy rules that would enf
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
-#### Task 3 - Test Delia's login
+### Task 3 - Test Delia's login
 
 1. Open a new **InPrivate** browsing window.
 2. Connect to https://www.office.com.
@@ -120,11 +120,11 @@ Next, let's examine how to set up Conditional Access policy rules that would enf
 
    ![Screenshot showing the complete Add Policy dialog](./media/mfa.png)
 
-### Exercise 2 - Configure MFA to be required for login
+## Exercise 2 - Configure MFA to be required for login
 
    By enforcing MFA, you significantly reduce the risk of unauthorized access and data breaches, enhancing the overall security of your Azure environment.
 
-#### Task 1 - Configure Microsoft Entra ID Per-User MFA
+### Task 1 - Configure Microsoft Entra ID Per-User MFA
 
 Finally, let's look at how to configure MFA for user accounts. This is another way to get to the multi-factor auth settings.
 
