@@ -69,7 +69,7 @@ After completing this lab, you will be able to complete the following exercises:
 
     >**Note:** If you get a prompt to Enable MFA you can choose **Ask Later**.
 
-4. If you see a **Welcome to Microsoft Azure** tour dialog, Select the **Maybe Later** button.
+4. If you see a **Welcome to Microsoft Azure** window dialog, Select the **Cancel** button.
 
 5. Search for and select **Enterprise applications** in the search dialog at the top of the screen.
 7. Select on **+ New application**. Notice that **+ Create your own application** is unavailable.
