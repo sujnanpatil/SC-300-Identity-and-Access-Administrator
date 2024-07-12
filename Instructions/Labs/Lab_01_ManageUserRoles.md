@@ -167,7 +167,7 @@ This task will use an alternative method to remove the assigned role; it will us
 
 1. In your Lab Vm  navigate to **C:\AllFiles\AllFiles.zip\SC-300-Identity-and-Access-Administrator-prod\Allfiles\Labs\Lab1** and open the **SC-300BulkUser** excel file and modify the domain names for all the users.
 
-   >**Note:** Sign in with the ODL user credentials present in the **Environment Details page** in order to be able to edit the excel sheet.
+   >**Note:** Sign in with the ODL user credentials present in the **Environment page** in order to be able to edit the excel sheet.
       
 2. The .csv template provides you with the fields included with the user profile. This includes the required username, display name, and initial password. You can also complete optional fields, such as Department and Usage location, at this time. The following screenshot is an example of how you can complete the .csvfile: 
 
