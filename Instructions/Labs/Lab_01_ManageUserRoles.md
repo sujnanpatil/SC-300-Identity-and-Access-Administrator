@@ -232,7 +232,7 @@ This task will use an alternative method to remove the assigned role; it will us
     Get-AzureADUser 
     ```
     
-7. To assign a common temporary password to all new users, run the following command and replace the TempPW with the password that you would like to provide to your users.  
+7. To assign a common temporary password to all new users, run the following command and replace the << enter.. >> with the password that you would like to provide to your users.  
 
     ``` 
     $PasswordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
