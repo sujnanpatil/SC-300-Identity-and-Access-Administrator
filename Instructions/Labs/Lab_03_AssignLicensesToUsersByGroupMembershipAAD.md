@@ -107,7 +107,7 @@ After completing this lab, you will be able to complete the following exercises:
    | Username | delia.dennis@`your domain name.com`|
    | Password| **Pa55w.rd@123** |
 
-   >**Note:** To find the username for Delia Dennis, login to the Azure portal and navigate to the Users section of the Microsoft Entra ID, and copy the user name.
+   >**Note:** Enter the username that you had copied in Exercise 1 Task 1 step number 3.
 
 4. You should connect to the Office.com website, and see no messages regarding license. All of the Office applications are available on the left.
 
