@@ -256,7 +256,7 @@ It may happen that an account is deleted and then needs to be recovered. You nee
 
 ## Task 1 - Remove a User
 
-1. Browse to [https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview).
+1. Back in the Azure portal,in the search box type **Microsoft Entra ID** and launch Microsoft Entra ID.
 
 2. In the left navigation, under **Manage**, select **Users**.
 
