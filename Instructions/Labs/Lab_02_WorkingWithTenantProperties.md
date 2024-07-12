@@ -52,13 +52,6 @@ After completing this lab, you will be able to:
    
 8. Navigate back to the Azure portal. Under the custom domain section, you should now be able to see the newly created custom subdomain.
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-
-    <validation step="758bd92b-fd9a-447f-87f5-b563b1df5ebb" />
-
 ## Exercise 2 - Changing the tenant display name
 
 ## Task 1 - Set the tenant name and technical contact
@@ -77,10 +70,11 @@ After completing this lab, you will be able to:
    >**Note:** You will notice the name change immediately upon completion of the save.
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+    <validation step="758bd92b-fd9a-447f-87f5-b563b1df5ebb" />
 
 ## Task 2 - Review the Country or region and other values associated with your tenant
 
