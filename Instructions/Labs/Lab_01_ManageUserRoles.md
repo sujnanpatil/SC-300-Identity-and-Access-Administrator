@@ -268,7 +268,7 @@ It may happen that an account is deleted and then needs to be recovered. You nee
 
 4. With the user account selected, on the menu, select **Delete**.
 
-5. Review the dialog box and then select **Yes**.
+5. Review the dialog box and then select **Ok**.
 
 ## Task 2 - Restore a deleted user
 
@@ -286,6 +286,7 @@ It may happen that an account is deleted and then needs to be recovered. You nee
 
 6. Verify the user has been restored.
 
+   >**Note:** You might have to click on **Refresh** to veiw the restored user.
 
 ## Exercise 6 - Add a  license to a user account
 
@@ -293,50 +294,44 @@ Some user accounts in your organization will not be provided all available produ
 
 ## Task 1 - Find your unlicensed user in Microsoft Entra ID
 
-1. Browse to [https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview).
+1. In the Azure portal, navigate to Microsoft Entra ID, from the left navigation pane under **Mange**, select **Users**.
 
-2. In the left navigation, under **Mange**, select **Users**.
+2. In the Users page, enter **Andre** into the search box.
 
-3. In the Users page, enter **Andre** into the search box.
+3. Select on **Andre Lawson**.
 
-4. Select on **Andre Lawson**.
-
-5. Review Andre's profile and ensure he has a Usage Location set.
+4. Review Andre's profile and ensure he has a Usage Location set.
 
     >**Warning** - To assign a license to a user, the user must assigned a usage location.
 
-6. To check if Andre has a usage location set, navigate to Andre Lawson's profile and choose **Edit Properties** from the top menu.
+5. To check if Andre has a usage location set, navigate to Andre Lawson's profile and choose **Edit Properties** from the top menu.
 
-7. Navigate to the **Settings (1)** section and enter the location as **United States (2)** and click on **Save (3)**.
+6. Navigate to the **Settings (1)** section and enter the location as **United States (2)** and click on **Save (3)**.
 
    ![Screen image displaying the Update license assignments page and license options highlighted](./media/unitedst2.png)
 
-6. Now, back on the Overview page of Microsoft Entra ID, select the **Licenses** menu item in the left-hand menu.
+7. Now, back on the Overview page of Microsoft Entra ID, select the **Licenses** menu item in the left-hand menu.
 
-7. Ensure that Andre has "No license assignments found."
+8. Ensure that Andre has "No license assignments found."
 
-8. Browse to [https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview]( https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview).
+9. In the left navigation, select **Licenses**.
 
-9. In the left navigation, under **Manage**, select **Users**
+10. Select the **+ Assignments** button. 
 
-10. In the Users page, select **Andre Lawson**.
-
-11. In the left navigation, select **Licenses**.
-
-12. Select the **+ Assignments** button. 
-
-13. On the Update license assignments page, select the check box for  **Office 365 E5** license.
+11. On the Update license assignments page, select the check box for  **Office 365 E5** license.
 
     ![Screen image displaying the Update license assignments page and license options highlighted](./media/office365.png)
 
-14. When complete, select **Save**.
+12. When complete, select **Save**.
 
-15. Now navigate to the user profile of **Andre Lawson**  from the left navigation pane select **Licenses**.
+13. Now navigate to the user profile of **Andre Lawson**  from the left navigation pane select **Licenses**.
 
-16. Notice that the license has been assigned.
+14. Notice that the license has been assigned.
 
     ![Screen image displaying the Update license assignments page and license options highlighted](./media/e5lic.png)
-   
+
+    >**Note:** You might have to refresh to see the License entry.
+
      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
      > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
