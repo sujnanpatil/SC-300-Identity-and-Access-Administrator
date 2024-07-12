@@ -52,6 +52,7 @@ After completing this lab, you will be able to complete the following exercises:
 ## Task 2 - Login and try to create an app
 
 1. Launch a new **InPrivate** browser window.
+
 2. Open the Azure Portal [https://portal.azure.com](https://portal.azure.com) as Chris Green.
 
     | **Setting**| **Value**|
@@ -72,10 +73,12 @@ After completing this lab, you will be able to complete the following exercises:
 4. If you see a **Welcome to Microsoft Azure** window dialog, Select the **Cancel** button.
 
 5. Search for and select **Enterprise applications** in the search dialog at the top of the screen.
-7. Select on **+ New application**. Notice that **+ Create your own application** is unavailable.
 
-9. Try Selecting on some of the other settings like **Application Proxy**, **User settings**, and others to see the **Chris Green** does not have rights.
-10. Select on **ChrisG** name in the upper-right corner and sign out.
+6. Select on **+ New application**. Notice that **+ Create your own application** is unavailable.
+
+7. Try Selecting on some of the other settings like **User settings**, and others to see the **Chris Green** does not have rights.
+
+8. Select on **ChrisG** name in the upper-right corner and sign out.
 
 
 ## Exercise 2 - Assign the application admin role and create an app
