@@ -17,13 +17,13 @@ After completing this lab, you will be able to complete the following exercises:
 
 ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch03.png)
 
-#### Estimated time: 25 minutes
+## Estimated time: 25 minutes
 
-### Exercise 1 - Create a security group and add a user
+## Exercise 1 - Create a security group and add a user
 
  In this exercise, you will create a security group to enhance access control and security measures and then include a user within the group to grant them specific permissions and restrictions as part of a broader security framework
 
-#### Task 1 - Check to see if USER01 has access to Office 365
+### Task 1 - Check to see if USER01 has access to Office 365
  
 1. Launch a new **InPrivate** browser window.
 
@@ -48,7 +48,7 @@ After completing this lab, you will be able to complete the following exercises:
     
 7. Close the browser window.
 
-#### Task 2 -  Create a security group in Microsoft Entra ID
+## Task 2 -  Create a security group in Microsoft Entra ID
 
 1. In the search resources tab in the azure portal, type **Microsoft Entra ID** and navigate to it.
 2. In the left navigation, under **Manage**, select **Groups**.
@@ -73,13 +73,13 @@ After completing this lab, you will be able to complete the following exercises:
    >**Note:** Kindly click the **Refresh** button if you are not able to see the newly created group.
    
      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
      > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
+     <validation step="6697b154-6e23-4071-b1b5-7bdbf56fc007" />
 
-#### Task 3 - Assign a license to a group
+## Task 3 - Assign a license to a group
 
 1. In the **All groups** list, select **sg-SC300-O365**.
 2. In the Marketing page, under **Manage**, select **Licenses**.
@@ -92,7 +92,7 @@ After completing this lab, you will be able to complete the following exercises:
 
 6. Select **Save**.
 
-#### Taks 4 - Confirm the Office 365 license
+## Taks 4 - Confirm the Office 365 license
 
 1. Launch a new InPrivate browser window.
 2. Connect to [https://www.office.com](https://www.office.com).
@@ -111,9 +111,9 @@ After completing this lab, you will be able to complete the following exercises:
     
 5. Close the browser window. 
 
-### Exercise 2 - Create a Microsoft 365 group in Microsoft Entra ID
+## Exercise 2 - Create a Microsoft 365 group in Microsoft Entra ID
 
-#### Task 1 - Create the group
+## Task 1 - Create the group
 
 Part of your duties as an Microsoft Entra administrator is to create different types of groups. You need to create a new Microsoft 365 group for your organization's sales department.
 
@@ -138,14 +138,15 @@ Part of your duties as an Microsoft Entra administrator is to create different t
 5. When complete, verify the group named **Northwest sales** is shown in the **All groups** list.
 
      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
      > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
-### Exercise 3 - Creating a dynamic group with all users as members
+     <validation step="cd72f203-b756-4b62-84fe-9e9abdcb5ea7" />
 
-#### Task 1 - Create the dynamic group
+## Exercise 3 - Creating a dynamic group with all users as members
+
+## Task 1 - Create the dynamic group
 
 As your company grows, manually group management is too time consuming. Since standardizing the directory, you can now take advantage of dynamic groups. You must create a new dynamic group to ensure you're ready for dynamic group creation in production.
 
@@ -183,7 +184,7 @@ As your company grows, manually group management is too time consuming. Since st
 
 12. On the New group page, select **Create** to create the group.
 
-#### Task 2 - Verify the members have been added
+## Task 2 - Verify the members have been added
 
 **Note** - The population of Dynamic group membership may take up to 15 minutes.
 
@@ -197,12 +198,13 @@ As your company grows, manually group management is too time consuming. Since st
 8. Review the members.
 
      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
      > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
-#### Task 3 - Experiment with alternate rules (Optional)
+     <validation step="4ef44753-8afa-4cd5-afc5-7467551cf169" />
+
+## Task 3 - Experiment with alternate rules (Optional)
 
 1. Try making a group with only **Guest** users:
 
