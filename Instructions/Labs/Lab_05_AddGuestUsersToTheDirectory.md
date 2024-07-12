@@ -15,13 +15,13 @@ After completing this lab, you will be able to complete the following exercises:
 
 ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch05.png)
 
-#### Estimated time: 20 minutes
+## Estimated time: 20 minutes
 
-### Exercise 1 - Add guest users to the directory
+## Exercise 1 - Add guest users to the directory
 
 Incorporate guest users into the directory to extend limited access and collaboration capabilities to external individuals or organizations
 
-#### Task - Add the guest user
+### Task - Add the guest user
 
 1. In the Azure portal, search for  and select **Microsoft Entra ID**.
 
@@ -50,11 +50,11 @@ Incorporate guest users into the directory to extend limited access and collabor
 
      <validation step="ab193eee-9bbc-457c-a424-d29d268ca030" />
 
-### Exercise 2 - Invite guest users in bulk
+## Exercise 2 - Invite guest users in bulk
 
 Efficiently invite multiple guest users in bulk to streamline the onboarding process for external collaborators and enhance productivity in shared digital environments.
 
-#### Task 1 - Bulk user invite
+### Task 1 - Bulk user invite
 
 A recent partnership has been established with another company. For now, employees of the partner company will be added as guests. You need to ensure you can import multiple guest users at one time.
 
@@ -98,7 +98,7 @@ A recent partnership has been established with another company. For now, employe
 
 12. When the job completes, you will see a notification that the bulk operation succeeded.
 
-#### Task 2 - Invite guest users with PowerShell
+### Task 2 - Invite guest users with PowerShell
 
 1. Open PowerShell as an administrator.  This can be done by searching for PowerShell in Windows and choosing Run as administrator. 
 
@@ -107,7 +107,7 @@ A recent partnership has been established with another company. For now, employe
     ```
     Install-Module Microsoft.Graph
     ```
->**Note:** - It might take some time for it to run.
+    >**Note:** - It might take some time for it to run.
 
 1. Confirm the Microsoft.Graph module is installed:
    
