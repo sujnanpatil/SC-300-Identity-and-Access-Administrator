@@ -69,7 +69,7 @@ After completing this lab, you will be able to complete the following exercises:
    ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/odluser.png)
 
 5. Select the **No members selected** text under Members.
-6. Select **Delia Dennis**  from the list of users.
+6. Search for and select **Delia Dennis**  from the list of users.
 7. Select the **Select** button.
 8. Select the **Create** button.
 9. When complete, verify the group named **sg-SC300-O365** is shown in the **All groups** list.
