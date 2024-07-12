@@ -29,7 +29,7 @@ After completing this lab, you will be able to complete the following exercises:
 
 1. In the left navigation menu, under **Manage**, select **Users**
 
-1. From the Microsoft Entra ID **Users** section, click on **Delia Dennis** user, copy the **Username**  and from the upper navigation tab click on **Reset Password** and copy the temporary password.
+1. From the Microsoft Entra ID **Users** section, click on **Delia Dennis** user, copy the **Username**  and from the top navigation tab click on **Reset Password** and copy the temporary password.
 
     ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/azureaad.png)
 
