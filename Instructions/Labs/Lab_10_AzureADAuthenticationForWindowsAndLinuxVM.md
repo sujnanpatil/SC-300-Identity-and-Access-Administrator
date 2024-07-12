@@ -113,7 +113,7 @@ In this exercise, you will learn how to access Windows Virtual Machines in Azure
 
      ![Create iam](./media/vm-iam-3.png)
 
-1. Once the user has been selected to assign the role, click on **Review + assign** to complete the process.
+1. Once the user has been selected to assign the role, click on **Review + assign** twice to complete the process.
 
      ![Create iam](./media/vm-iam-4.png)
 
@@ -176,7 +176,7 @@ In this exercise, you will learn how to access Windows Virtual Machines in Azure
 
 1. Open the **Downloads** folder in file manager.
 
-1. **Make a copy** of the RDP file and add **-AzureAD** to the end of the filename as shown in the screenshot below:
+1. **Make a copy** of the RDP file and add **-EntraIDD** to the end of the filename as shown in the screenshot below:
 
      ![RDP](./media/rdp-file-copy.png)
 
@@ -194,11 +194,11 @@ In this exercise, you will learn how to access Windows Virtual Machines in Azure
  
  1. **Save** the RDP file. You should now have two versions of the file:
       - <<virtual machine name>>.RDP
-      - <<virtual machine name>>-AzureAD.RDP
+      - <<virtual machine name>>-EntraID.RDP
 
 ### Task 5: Connect to the Windows Server 2022 Datacenter using Microsoft Entra ID login
 
-1. Open the **Virtual-Machine-01 -AzureAD.RDP** file.
+1. Open the **Virtual-Machine-01 -EntraID.RDP** file.
 
 1. Select **Connect** when the dialog opens.
 
