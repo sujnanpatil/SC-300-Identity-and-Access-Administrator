@@ -26,7 +26,7 @@ After completing this lab, you will be able to complete the following exercises:
   
   In this exercise, you will create  a new user account and verify their administrative privileges by testing their application access and control.
 
-#### Task 1 - Add a new user
+### Task 1 - Add a new user
 
 1. In the Azure portal, search for and  select **Microsoft Entra ID**.
 
