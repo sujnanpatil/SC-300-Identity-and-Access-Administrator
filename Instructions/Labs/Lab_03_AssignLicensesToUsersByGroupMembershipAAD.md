@@ -86,7 +86,7 @@ After completing this lab, you will be able to complete the following exercises:
 ### Task 3 - Assign a license to a group
 
 1. In the **All groups** list, select **sg-SC300-O365**.
-2. In the Marketing page, under **Manage**, select **Licenses**.
+2. In the Marketing page, in the left navigation pane under **Manage**, select **Licenses**.
 3. On the menu, select **+ Assignments**.
 4. In the update license assignments page, under **Select licenses**, review the list of available licenses and then select the check box for **Office 365 E3**.
 
