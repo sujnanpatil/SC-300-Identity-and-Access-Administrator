@@ -147,13 +147,15 @@ This task will use an alternative method to remove the assigned role; it will us
 
 2. In the search box type **Microsoft Entra ID** and launch Microsoft Entra ID.
 
-3. In **Microsoft Entra ID**, select **Roles and administrators**, and then select the **Application administrator** role from the list.
+3. Select on **Users** under the Manage section of the menu.
 
-4. On the **Application administrator | Assignments** page you should see Chris Green's name listed.
+4. Select **Chris Green's** account.
 
-5. Put a check in the box next to Chris Green.
+5. From the left navigation pane, click on **Assigned Roles**.
 
-6. Select **X Remove assignments** from the options at the top of the dialog.
+5. Put a check in the box next to **Application Administrator**.
+
+6. Select **X Remove assignments** from the options at the top navigation pane.
 
 7. Answer **Yes** when the confirmation box opens.
 
