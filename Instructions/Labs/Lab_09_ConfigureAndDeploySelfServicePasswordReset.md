@@ -52,10 +52,11 @@ You want to roll out SSPR to a limited set of users first to make sure your SSPR
 
     ![](./media/lab09-sc300-3.png)
 
-  
 3. Select **Create**.
 
     ![](./media/lab09-sc300-4.png)
+
+   <validation step="e11d21a6-fbc6-42b0-8271-5413eb1ee9b4" />
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
