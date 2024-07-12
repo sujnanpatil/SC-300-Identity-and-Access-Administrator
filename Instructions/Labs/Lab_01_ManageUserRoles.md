@@ -103,8 +103,6 @@ After completing this lab, you will be able to complete the following exercises:
 
     ![Assigned roles page - showing the selected role](./media/directory-role-select-role.png)
 
-   >**Note** - If the lab environment has already activated Azure AD Premium P2, Privileged Identity Management (PIM) will be enabled and you wll need to select **Next** and assign a Permanent role to this user.
-
 8. Select the **Refesh** button.
 
 9. The newly assigned Application administrator role appears on the user’s Assigned roles page.
