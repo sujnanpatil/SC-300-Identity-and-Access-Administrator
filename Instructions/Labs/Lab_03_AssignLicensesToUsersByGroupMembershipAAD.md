@@ -41,8 +41,8 @@ After completing this lab, you will be able to complete the following exercises:
    | :--- | :--- |
    | Username | delia.dennis@`your domain name.com`|
    | Current Password| Temporary Password you had copied in the previous step|
-   | New Password| Password@1!! |
-   | Confirm Password| Password@1!! |
+   | New Password| Pa55w.rd@123 |
+   | Confirm Password| Pa55w.rd@123 |
 
     >**Note:** Enter the username and password that you had copied in the previous step.
 
