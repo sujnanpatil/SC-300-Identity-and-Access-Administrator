@@ -181,8 +181,6 @@ Finally, let's look at how to configure MFA for user accounts. This is another w
 
 1. A new browser tab/window will open with a multi-factor authentication user settings dialog.
 
-   ![Screenshot showing the MFA options](./media/and-users.png)
-
 1. Select **Adele Vance** with a check-mark. Select the **Enable** option under quick steps.
 
    ![](./media/lab08-sc300-17.png)
