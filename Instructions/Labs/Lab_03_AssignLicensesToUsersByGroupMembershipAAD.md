@@ -40,8 +40,11 @@ After completing this lab, you will be able to complete the following exercises:
    | **Setting**| **Value**|
    | :--- | :--- |
    | Username | delia.dennis@`your domain name.com`|
-   | Password| Enter the password for Delia Dennis|
+   | Current Password| Temporary Password you had copied in the previous step|
+   | New Password| Password@1!! |
+   | Confirm Password| Password@1!! |
 
+    >**Note:** Enter the username and password that you had copied in the previous step.
 
 1. You should connect to the Office.com website, but see a message indicating you don't have a license.
 
