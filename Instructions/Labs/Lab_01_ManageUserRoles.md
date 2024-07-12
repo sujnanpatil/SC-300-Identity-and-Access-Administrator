@@ -87,12 +87,18 @@ After completing this lab, you will be able to complete the following exercises:
 
 ## Task 1 - Assign a role to a user
 
-1. If you are not already logged in as a Global Administrator role, open the Azure Portal and log in.
+1. Go back to the normal browser window where you are logged in as a Global Administrator.
+
 2. Navigate to **Microsoft Entra ID**  page.
+
 3. Select on **Users** under the Manage section of the menu.
+
 4. Select **Chris Green's** account.
+
 5. Choose **Assigned roles** from the Manage menu.**(1)**
+
 6. Select **+ Add assignments (2)** and mark the `Application administrator` role **(3)**
+
 7. Select **Add (4)**
 
     ![Assigned roles page - showing the selected role](./media/directory-role-select-role.png)
