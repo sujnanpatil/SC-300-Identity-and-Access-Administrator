@@ -129,11 +129,11 @@ In this exercise, you will learn how to access Windows Virtual Machines in Azure
 
 1. Within the Overview section, click on **Connect**.
 
-     ![start vm](./media/start-vm-1.png)
+     ![start vm](./media/rdpfile4.png)
 
 1. Click on **Select** to connect to **Virtual-Machine-01** via Native RDP.
 
-     ![start vm](./media/start-vm-2.png)
+     ![start vm](./media/rdpfile5.png)
 
 1. On the **Native RDP** pane, select the **Download RDP File**.  If prompted choose the **Keep** option for the file.  It will be saved into your Downloads folder.
 
@@ -178,11 +178,11 @@ In this exercise, you will learn how to access Windows Virtual Machines in Azure
 
 1. **Make a copy** of the RDP file and add **-EntraIDD** to the end of the filename as shown in the screenshot below:
 
-     ![RDP](./media/rdp-file-copy.png)
+     ![RDP](./media/rdpfile1.png)
 
 1. Edit the new version of the RDP file you just copied using Notepad.
 
-     ![RDP](./media/rdp-file-copy-1.png)
+     ![RDP](./media/rdpfile2.png)
 
 1. Add the these two lines of text to the bottom of the of the file:
      ```
@@ -190,11 +190,11 @@ In this exercise, you will learn how to access Windows Virtual Machines in Azure
         authentication level:i:2
      ```
 
-     ![RDP](./media/rdp-file-copy-2.png)
+     ![RDP](./media/rdpfile3.png)
  
  1. **Save** the RDP file. You should now have two versions of the file:
-      - <<virtual machine name>>.RDP
-      - <<virtual machine name>>-EntraID.RDP
+      - <<Virtual-Machine-01>>.RDP
+      - <<Virtual-Machine-01>>-EntraID.RDP
 
 ### Task 5: Connect to the Windows Server 2022 Datacenter using Microsoft Entra ID login
 
@@ -209,10 +209,10 @@ In this exercise, you will learn how to access Windows Virtual Machines in Azure
 1. The Remote Desktop session should open; and show the Windows Server login screen with  **Other User** should be displayed.
 
 1. In the login dialog enter the following information:
-   - Username:  **AzureAD\<inject key="AzureAdUserEmail" enableCopy="true" />**
-   - Password: **<inject key="AzureAdUserPassword" enableCopy="true" />** 
+   - Username: AzureAD\ **<inject key="AzureAdUserEmail" enableCopy="false" />**
+   - Password: **<inject key="AzureAdUserPassword"></inject>** 
 
-   >**Note:** **<inject key="LabVM Admin Username" enableCopy="false" />** is the user we granted access to log in as administrator during Task 1.
+   >**Note:** **<inject key="AzureAdUserEmail" enableCopy="false" />** is the user we granted access to log in as administrator during Task 2.
 
 1. Windows Server should confirm the login and open to the normal Server Manager Dashboard.
 
