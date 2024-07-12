@@ -209,8 +209,8 @@ In this exercise, you will learn how to access Windows Virtual Machines in Azure
 1. The Remote Desktop session should open; and show the Windows Server login screen with  **Other User** should be displayed.
 
 1. In the login dialog enter the following information:
-   - Username:  **<inject key="LabVM Admin Username" enableCopy="true" />**
-   - Password: **<inject key="LabVM Admin Password" enableCopy="true" />** 
+   - Username:  **AzureAD\<inject key="AzureAdUserEmail" enableCopy="true" />**
+   - Password: **<inject key="AzureAdUserPassword" enableCopy="true" />** 
 
    >**Note:** **<inject key="LabVM Admin Username" enableCopy="false" />** is the user we granted access to log in as administrator during Task 1.
 
