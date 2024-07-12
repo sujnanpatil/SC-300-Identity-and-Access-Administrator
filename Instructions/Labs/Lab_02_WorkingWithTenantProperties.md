@@ -26,6 +26,10 @@ After completing this lab, you will be able to:
 
     ![Azure portal menu with Azure Active Directory selected](./media/msentrid.png)
 
+1. From the Microsoft Entra ID Overview page, copy the primary domain name.
+
+   ![Bulk import using csv file entry](./media/xce12.png)
+
 2. From the left-hand navigation pane, in the **Manage** section of **Microsoft Entra ID**, select **Custom domain names**.
 
 3. Select **Add custom domain**.
@@ -35,23 +39,25 @@ After completing this lab, you will be able to:
     ```
     sales.labtenant.onmicrosoft.com
     ```
-> **Note** - You will be prompted to open the Microsoft 365 Admin center to complete this action.
 
-   ![Azure portal menu with Azure Active Directory selected](./media/admincenter.png)
+    >**Note**: Replace labtenant with the primary domain name you copied in the previous step.
 
-5. Under **Add domain** page of Microsoft 365 Admin center, paste the value **sales.labtenant.onmicrosoft.com** and click on **Use this Domian**.
+5.  You will be prompted to open the Microsoft 365 Admin center to complete this action.
 
-6. Click on **Continue** in the verify your domain page and click on **Verify** option under Add a record to verify ownership.
+     ![Azure portal menu with Azure Active Directory selected](./media/irt1.png)
+
+6. Click on **Add domain** page of Microsoft 365 Admin center, paste the value **sales.labtenant.onmicrosoft.com** and click on **Use this Domian**.
+
+7. Click on **Continue** in the verify your domain page and click on **Verify** option under Add a record to verify ownership.
    
-   > **Note**: Ignore the error message for not detecting the new record, inorder to complete the verification of the sub domain added, please follow the step-by-step process listed here: https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider?view=o365-worldwide&redirectSourcePath=%252farticle%252f7b7b075d-79f9-4e37-8a9e-fb60c1d95166#BKMK_verify
-
-7. Navigate back to the Azure portal. Under the custom domain section, you should now be able to see the newly created custom subdomain.
+8. Navigate back to the Azure portal. Under the custom domain section, you should now be able to see the newly created custom subdomain.
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+    <validation step="758bd92b-fd9a-447f-87f5-b563b1df5ebb" />
 
 ## Exercise 2 - Changing the tenant display name
 
