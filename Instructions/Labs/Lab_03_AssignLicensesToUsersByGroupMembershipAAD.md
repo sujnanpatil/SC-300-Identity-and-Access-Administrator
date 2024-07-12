@@ -48,7 +48,7 @@ After completing this lab, you will be able to complete the following exercises:
     
 7. Close the browser window.
 
-## Task 2 -  Create a security group in Microsoft Entra ID
+### Task 2 -  Create a security group in Microsoft Entra ID
 
 1. In the search resources tab in the azure portal, type **Microsoft Entra ID** and navigate to it.
 2. In the left navigation, under **Manage**, select **Groups**.
@@ -79,7 +79,7 @@ After completing this lab, you will be able to complete the following exercises:
 
      <validation step="6697b154-6e23-4071-b1b5-7bdbf56fc007" />
 
-## Task 3 - Assign a license to a group
+### Task 3 - Assign a license to a group
 
 1. In the **All groups** list, select **sg-SC300-O365**.
 2. In the Marketing page, under **Manage**, select **Licenses**.
@@ -92,7 +92,7 @@ After completing this lab, you will be able to complete the following exercises:
 
 6. Select **Save**.
 
-## Taks 4 - Confirm the Office 365 license
+### Taks 4 - Confirm the Office 365 license
 
 1. Launch a new InPrivate browser window.
 2. Connect to [https://www.office.com](https://www.office.com).
@@ -113,7 +113,7 @@ After completing this lab, you will be able to complete the following exercises:
 
 ## Exercise 2 - Create a Microsoft 365 group in Microsoft Entra ID
 
-## Task 1 - Create the group
+### Task 1 - Create the group
 
 Part of your duties as an Microsoft Entra administrator is to create different types of groups. You need to create a new Microsoft 365 group for your organization's sales department.
 
@@ -146,7 +146,7 @@ Part of your duties as an Microsoft Entra administrator is to create different t
 
 ## Exercise 3 - Creating a dynamic group with all users as members
 
-## Task 1 - Create the dynamic group
+### Task 1 - Create the dynamic group
 
 As your company grows, manually group management is too time consuming. Since standardizing the directory, you can now take advantage of dynamic groups. You must create a new dynamic group to ensure you're ready for dynamic group creation in production.
 
@@ -184,7 +184,7 @@ As your company grows, manually group management is too time consuming. Since st
 
 12. On the New group page, select **Create** to create the group.
 
-## Task 2 - Verify the members have been added
+### Task 2 - Verify the members have been added
 
 **Note** - The population of Dynamic group membership may take up to 15 minutes.
 
@@ -204,7 +204,7 @@ As your company grows, manually group management is too time consuming. Since st
 
      <validation step="4ef44753-8afa-4cd5-afc5-7467551cf169" />
 
-## Task 3 - Experiment with alternate rules (Optional)
+### Task 3 - Experiment with alternate rules (Optional)
 
 1. Try making a group with only **Guest** users:
 
