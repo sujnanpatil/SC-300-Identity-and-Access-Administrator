@@ -21,15 +21,17 @@ After completing this lab, you will be able to complete the following tasks:
 
 ### Task 1 - Enable Guest Users to perform self service sign-up
 
-1. Sign in to the [https://portal.azure.com](https://portal.azure.com) as a tenant administrator.
-2. Select **Microsoft Entra ID**.
-3. Select **User Settings**.
-4. Scroll down and under **External Users** select **Manage external user collaboration settings**.
+1. Select **Microsoft Entra ID**.
+
+1. Select **User Settings**.
+
+1. Scroll down and under **External Users** select **Manage external user collaboration settings**.
 
    ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/userset.png)
 
-6. Ensure that **YES** is marked for the setting **Enable guest self-service sign up via user flows**.
-7. Select **Save** at the top of the screen.
+1. Ensure that **YES** is marked for the setting **Enable guest self-service sign up via user flows**.
+
+1. Select **Save** at the top of the screen.
 
 ### Task 2 - Configure external collaboration settings
 
