@@ -20,7 +20,7 @@ After completing this lab, you will be able to:
 
 #### Task 1 - Policy configuration
 
-1. Sign in to the [https://portal.azure.com]( https://portal.azure.com) using a Global administrator account.
+1. Sign in to the [https://entra.microsoft.com](https://entra.microsoft.com) using a Global administrator account.
 
 2. Open the portal menu and then search for and select **Microsoft Entra ID**.
 
