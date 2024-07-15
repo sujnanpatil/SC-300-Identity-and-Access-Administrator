@@ -21,7 +21,7 @@ After completing this lab, you will be able to complete the following tasks:
 
 ### Task 1 - Enable Guest Users to perform self service sign-up
 
-1. Select **Microsoft Entra ID**.
+1. In the Azure portal, search for and select **Microsoft Entra ID**.
 
 1. Select **User Settings**.
 
