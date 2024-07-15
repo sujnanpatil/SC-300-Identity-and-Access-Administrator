@@ -17,11 +17,11 @@ After completing this lab, you will be able to complete the following exercises:
 
    ![](./media/arch18.png)
 
-### Exercise 1 - Create and test the Conditional Access App Contol policy
+## Exercise 1 - Create and test the Conditional Access App Contol policy
   
   In this lab, you will learn to create and test a Conditional Access App Control policy. 
 
-#### Task 1 - Confirm that PradeepG has unconditional access to FORMS
+### Task 1 - Confirm that PradeepG has unconditional access to FORMS
 
 1. Open a Microsoft Edge browser, launch a new **InPrivate** browsing window, and browse to [https://forms.microsoft.com](https://forms.microsoft.com).
 
@@ -48,7 +48,7 @@ After completing this lab, you will be able to complete the following exercises:
 
 8. Close the InPrivate browsing window.
 
-#### Task 2 - Configure Microsoft Entra ID to work with Defender for Cloud Apps
+### Task 2 - Configure Microsoft Entra ID to work with Defender for Cloud Apps
 
 1. Navigate to Azure Portal, in **Search resources, services and docs (1)** search and select for **Microsoft Entra ID (2)**.
 
@@ -81,13 +81,14 @@ Choose the **Pradeep Gupta** account for the lab tenant and select **Select**.
 
 13. Select **Create**.
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
-#### Task 3 - Log into Forms and validate that conditional access is monitoring
+     <validation step="63811d93-2f19-414a-8080-7af5209c23db" />
+
+### Task 3 - Log into Forms and validate that conditional access is monitoring
 
 1. Launch a new InPrivate browsing window, and browse to [https://forms.microsoft.com](https://forms.microsoft.com).
 
@@ -108,11 +109,11 @@ Choose the **Pradeep Gupta** account for the lab tenant and select **Select**.
 
 4. Close the InPrivate browsing window.
 
-### Exercise 2 - Setup alerts in Microsoft Defender for Cloud Apps
+## Exercise 2 - Setup alerts in Microsoft Defender for Cloud Apps
 
 Registering your application establishes a trust relationship between your app and the Microsoft identity platform. The trust is unidirectional: Your app trusts the Microsoft identity platform—not the other way around.
 
-#### Task 1 - Access Microsoft Defender for Cloud Apps and create Conditional Access App Control
+### Task 1 - Access Microsoft Defender for Cloud Apps and create Conditional Access App Control
 
 1. Open a new tab, and browse to the [https://security.microsoft.com](https://security.microsoft.com).
 
@@ -146,7 +147,7 @@ Registering your application establishes a trust relationship between your app a
 
 1. Select **Create** to create the access policy.
 
-#### Task 2 - Log in as Pradeep to Forms to trigger activity
+### Task 2 - Log in as Pradeep to Forms to trigger activity
 
 1. Launch a new InPrivate browsing window, and browse to [https://forms.microsoft.com](https://forms.microsoft.com).
 
@@ -167,7 +168,7 @@ Registering your application establishes a trust relationship between your app a
 
 1. Close the InPrivate browsing window.
 
-#### Task 3 - Review the Activity in Defender for Cloud Apps
+### Task 3 - Review the Activity in Defender for Cloud Apps
 
 1. Return to the browswer running Microsoft 365 Defender.
 
