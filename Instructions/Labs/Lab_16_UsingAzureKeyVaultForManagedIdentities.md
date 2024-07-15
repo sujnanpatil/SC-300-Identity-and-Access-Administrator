@@ -30,11 +30,36 @@ Use Azure Key Vault to securely manage and rotate secrets, keys, and certificate
 
 1. Type **Windows 11** in Search the Marketplace search bar.
 
-1. Select **Windows 11** and from the plan dropdown choose **Windows 11 Enterprise, version 21H2**. Then choose **Create**.
+1. Select **Windows 11** and click on the dropdown next to **Create**.
 
+   ![](./media/sc-300-lab16-7.png)
+
+1. From the dropdown, choose **Windows 11 Enterprise, version 21H2**. Then choose **Create**.
+
+   ![](./media/sc-300-lab16-8.png)
+
+1. In the Create a Virtual Machine page, modify the following by keeping the rest as default:
+
+   - Resource Group: Select the existing resource group from the dropdown (1)
+   - Virtual Machine Name: **VM-<inject key="DeploymentID" enableCopy="false"/> (2)**
+   - Size: **Standard B2s (3)**
+   - Username: **azureuser (4)**
+   - Password: **Password@..!!(5)**
+   - Confirm Password: **Password@..!! (6)**
+   - Ensure the checkbox towards the end is checked whcih states that you have an eliglible Windows 10/11 License.
+
+
+     ![](./media/sc-300-lab16-1.png)
+
+     ![](./media/sc-300-lab16-2.png)
+
+     ![](./media/sc-300-lab16-3.png)
+   
 1. You will have to create an administrator username and password for the VM on the basics tab.
 
 1. On the **Management** tab, check the box to **Enable system assigned managed identity**.
+
+   ![](./media/sc-300-lab16-4.png)
 
 1. Go through the rest of the experience of creating a virtual machine. 
 
@@ -71,6 +96,8 @@ Use Azure Key Vault to securely manage and rotate secrets, keys, and certificate
     | Region | **<inject key="Region" enableCopy="false"/>** |
     | Access Configuration | select the **Vault Access Policy** radio button. |
 
+      ![](./media/sc-300-lab16-5.png)
+   
 1. Select **Review + create**.
 
 1. Select **Create**.
@@ -142,8 +169,8 @@ Use Azure Key Vault to securely manage and rotate secrets, keys, and certificate
 
 1. In the virtual machine, from the **start meanu** search and select **Windows PowerShell**.  
 
-    ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/powershell.png)
-
+   ![](./media/sc-300-lab16-6.png)
+   
 1. In PowerShell, run the following command to invoke the web request on the tenant to get the token for the local host in the specific port for the VM.  
 
     ```
