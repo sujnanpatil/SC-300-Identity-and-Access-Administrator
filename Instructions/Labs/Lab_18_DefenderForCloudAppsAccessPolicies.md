@@ -62,8 +62,7 @@ After completing this lab, you will be able to complete the following exercises:
 
 5. Enter a policy name, **Monitor Pradeep using Forms**.
 
-6. Under **Users**, select **0 users and groups selected**, under **Include**, select **Select users and groups**, and select **Users and groups**.
-Choose the **Pradeep Gupta** account for the lab tenant and select **Select**.
+6. Under **Users**, select **0 users and groups selected**, under **Include**, select **Select users and groups**, and select **Users and groups**. Choose **Pradeep Gupta** account for the lab tenant and select **Select**.
 
 8. Under Target resources, select **No target resources selected**, under **Include**, select **Select apps**,under **Select** choose **None**, and then choose **Microsoft Forms**, and select **Select**. 
 
