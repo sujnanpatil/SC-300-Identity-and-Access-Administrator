@@ -13,7 +13,7 @@ After completing this lab, you will be able to:
 
 ## Architecture Diagram
 
-   ![](./media/Lab-25.png)
+   ![](./media/Lab-25.PNG)
 
 ### Exercise 1 - Create an internal Access review
 Creating an internal Access review involves regularly evaluating and validating the access permissions of users and roles within your organization to maintain security and compliance.
@@ -24,7 +24,7 @@ Creating an internal Access review involves regularly evaluating and validating 
 
     ![Azure portal menu with Azure Active Directory selected](./media/lab25-1.png)
 
-1. From the left-hand navigation pane, select **Groups**.
+1. From the left-hand navigation pane, select **Groups** under **Manage** option.
 
 1. On **Groups | All groups**, select **New group**. Now, follow the instructions for creating the groups, and select **Create**:
    ![Azure portal menu with Azure Active Directory selected](./media/lab25-2.png)
@@ -84,10 +84,11 @@ Creating an internal Access review involves regularly evaluating and validating 
 1. Selecting an access review of one of the roles will provide status on these access reviews.
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+   <validation step="44cd7747-25c1-45c5-9f23-21f401b3e680" />
 
 ## Review
 
