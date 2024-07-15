@@ -19,10 +19,10 @@ In this lab, you will complete the following tasks:
 
    ![](./media/arch16.png)
 
-### Exercise 1 - Use Azure Key Vault to manage Virtual Machine identities
+## Exercise 1 - Use Azure Key Vault to manage Virtual Machine identities
 Use Azure Key Vault to securely manage and rotate secrets, keys, and certificates for Virtual Machine identities in Azure, enhancing security and access control.
 
-#### Task 1 - Create a Windows Virtual Machine
+### Task 1 - Create a Windows Virtual Machine
 
 1. Select **+ Create a resource**.
 
@@ -39,15 +39,17 @@ Use Azure Key Vault to securely manage and rotate secrets, keys, and certificate
 1. Go through the rest of the experience of creating a virtual machine. 
 
 1. Select Create
-   >**Note**: Please wait till the deployment is successful.
-   
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-   > - Hit the Validate button for the corresponding task. You can proceed to the next task if you receive a success message.
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-#### Task 2 - Create a Key Vault
+     >**Note**: Please wait till the deployment is successful.
+   
+     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+
+     <validation step="1935e96f-183f-447c-9218-a42a2312f43b" />
+
+### Task 2 - Create a Key Vault
 
 1. Select **+ Create a resource**.
 
@@ -78,13 +80,14 @@ Use Azure Key Vault to securely manage and rotate secrets, keys, and certificate
 1. On **keyvault-<inject key="DeploymentID" enableCopy="false"/>** page copy the url and paste that URL in notepad you need this values in further tasks.
    ![](./media/lab16-6.png)
          
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-   > - Hit the Validate button for the corresponding task. You can proceed to the next task if you receive a success message.
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
-#### Task 3 - Create a secret
+     <validation step="242ccb00-a152-49ee-8d59-42c22a8c1860" />
+
+### Task 3 - Create a secret
 
 1. Navigate to your newly created Key Vault.
 
@@ -105,11 +108,12 @@ Use Azure Key Vault to securely manage and rotate secrets, keys, and certificate
 
 1. Copy the secret name **secret-<inject key="DeploymentID" enableCopy="false"/>** , and paste it in the notepad you need this values in further tasks.
 
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-   > - Hit the Validate button for the corresponding task. You can proceed to the next task if you receive a success message.
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+
+     <validation step="b3569c98-64c4-4f7e-a19b-463cfc0b4d36" />
 
 #### Task 4 - Grant access to Key Vault
 
