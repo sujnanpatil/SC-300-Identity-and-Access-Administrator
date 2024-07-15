@@ -78,6 +78,7 @@ A recent partnership has been established with another company. For now, employe
     ![Screen image displaying the example bulk invite guests template CSV](./media/lp1-mod3-template-csv1.png)
 
     >**Note:** Sign in with the ODL user credentials present in the Environment Details page in order to be able to edit the excel sheet.
+    
     >**Note:** You can use any email address and redirection URL
 
 7. Save the file.
