@@ -23,9 +23,9 @@ After completing this lab, you will be able to complete the following tasks:
 
 1. In the Azure portal, search for and select **Microsoft Entra ID**.
 
-1. Select **User Settings**.
+1. From the left navigation pane, under Manage, select **User Settings**.
 
-1. Scroll down and under **External Users** select **Manage external user collaboration settings**.
+1. Scroll down and under **External Users** select **Manage external collaboration settings**.
 
    ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/userset.png)
 
@@ -35,21 +35,23 @@ After completing this lab, you will be able to complete the following tasks:
 
 ### Task 2 - Configure external collaboration settings
 
-1. Sign in to the [https://portal.azure.com](https://portal.azure.com) as a tenant administrator.
-2. Select **Microsoft Entra ID**.
-3. From the left navigation pane, select **External Identities > All identity providers**.
+1. From the left navigation pane, select **External Identities > All identity providers**.
 
    ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/extident.png)
 
-4. Select the **Email one-time passcode** notification link you see near the top of the screen.
+1. Select the **Email one-time passcode** notification link you see near the top of the screen.
 
     >**Note** - A one-time passcode is a very secure way to invite a user to join your organization.
     
-5. Ensure that **Yes** is selected.
-6. Select **Save** if needed.
-7. Otherwise, select `Home > Microsoft Entra ID >` **External Identities** to return to the previous screen.
-8. Select **External Collaboration Settings** on the left
-9. Under **Guest user access**, review access levels that are available and then select **Guest user access is restricted to properties and memberships of their own directory objects (most restrictive)**.
+1. Ensure that **Yes** is selected.
+
+1. Select **Save** if needed.
+
+1. Otherwise, select `Home > Microsoft Entra ID >` **External Identities** to return to the previous screen.
+
+1. Select **External Collaboration Settings** on the left
+
+1. Under **Guest user access**, review access levels that are available and then select **Guest user access is restricted to properties and memberships of their own directory objects (most restrictive)**.
 
    ![Screen image displaying guest user access restriction options](./media/lp1-mod3-guest-user-access-restrictions1.png)
 
@@ -58,7 +60,7 @@ After completing this lab, you will be able to complete the following tasks:
     >- Guest users have limited access to properties and memberships of directory objects: (Default) This setting blocks guests from certain directory tasks, like enumerating users, groups, or other directory resources. Guests can see membership of all non-hidden groups.
     >- Guest user access is restricted to properties and memberships of their own directory objects (most restrictive): With this setting, guests can access only their own profiles. Guests are not allowed to see other users' profiles, groups, or group memberships.
 
-10. Under **Guest invite settings**,  select **Member users and users assigned to specific admin roles can invite guest users including guests with member permissions**!
+1. Under **Guest invite settings**,  select **Member users and users assigned to specific admin roles can invite guest users including guests with member permissions**!
 
     ![Screen image displaying guest invite settings with Guests can invite set to No and highlighted](./media/lp1-mod3-guest-user-invite-settings1.png)
 
