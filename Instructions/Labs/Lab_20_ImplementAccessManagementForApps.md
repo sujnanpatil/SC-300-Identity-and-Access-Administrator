@@ -47,7 +47,7 @@ Configuring an Enterprise App involves setting up and managing the identity and 
 
     ![](./media/enterprise-apps-4.png)
 
-    <validation step="58da6f73-286e-4c2e-9506-09649fb7ba6d" />
+    <validation step="68af99af-30de-40e5-aba0-b9bdb16a937e" />
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
