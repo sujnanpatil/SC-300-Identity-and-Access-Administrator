@@ -27,9 +27,9 @@ After completing this lab, you will be able to:
 
 2. Accept the terms of service if you're prompted to do so.
 
-3. At the top of the page, click on the dropdown next to the **select a project** menu to open the Select a project page. Choose **New Project**.  Leave the remaining fields with the default settings.
+3. At the top of the page, click on the dropdown next to the **select a project** menu to open the Select a project page. Choose **Create Project**.  Leave the remaining fields with the default settings.
 
-   ![Screen image the Office.com website with Delia Dennis logged in but no office applications are available, because no license is assigned.](./media/selectaproject.png) 
+   ![Screen image the Office.com website with Delia Dennis logged in but no office applications are available, because no license is assigned.](./media/p31.png) 
 
 4. On the New Project page, give the project name **MyB2BApp (1)**, and then select **Create(2)**.
 
@@ -80,9 +80,14 @@ After completing this lab, you will be able to:
    
       >**Note:** Replace the Tenant ID and Tenant Name with the your Tenant ID and Tenant Name. Go to Azure portal and search for and select **Microsoft Entra ID** in the overview page copy the **Tenant ID** and **Tenant Name**.
 
+      >![Screen image the Office.com website with Delia Dennis logged in but no office applications are available, because no license is assigned.](./media/p32.png) 
+
+
 16. Select **Create**.
 
 17. Click on the newly created **Credential** and copy your **client ID** and **client secret**. You'll use them when you add the identity provider in the Azure portal. Select **OK**.
+
+   ![Screen image the Office.com website with Delia Dennis logged in but no office applications are available, because no license is assigned.](./media/p33.png) 
 
 18. You can leave your project at a publishing status of Testing.
 
@@ -153,7 +158,7 @@ This completes the configuration of Google as an identity provider.
 
 4. Enter your username and password as requested in the login dialog (if requested).
 
-   >**NOTE** If the ferderation is working correctly, this is where you will see the first results of your new Google External Identity provider.  You will go to the login screen and be able to log in with your gmail credentials.  If the federation is not work, or has not been set up, the user would be sent and ACCOUNT VERIFICATION email after the log in, to confirm the account.  With the federation, no extra verification is needed.
+   >**NOTE** If the federation is working correctly, this is where you will see the first results of your new Google External Identity provider.  You will go to the login screen and be able to log in with your gmail credentials.  If the federation is not work, or has not been set up, the user would be sent and ACCOUNT VERIFICATION email after the log in, to confirm the account.  With the federation, no extra verification is needed.
 
    >**NOTE** If you get an access error 500, wait about 30 seconds and refresh the page.  Choose to RESUBMIT.  This error is a timing issue only in the lab environment.
 
