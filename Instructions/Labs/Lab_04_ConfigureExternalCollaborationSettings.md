@@ -17,9 +17,9 @@ After completing this lab, you will be able to complete the following tasks:
 
 ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch004.png)
 
-### Exercise 1 - Allowing guest users to be invited into your organization
+## Exercise 1 - Allowing guest users to be invited into your organization
 
-#### Task 1 - Enable Guest Users to perform self service sign-up
+### Task 1 - Enable Guest Users to perform self service sign-up
 
 1. Sign in to the [https://portal.azure.com](https://portal.azure.com) as a tenant administrator.
 2. Select **Microsoft Entra ID**.
@@ -31,7 +31,7 @@ After completing this lab, you will be able to complete the following tasks:
 6. Ensure that **YES** is marked for the setting **Enable guest self-service sign up via user flows**.
 7. Select **Save** at the top of the screen.
 
-#### Task 2 - Configure external collaboration settings
+### Task 2 - Configure external collaboration settings
 
 1. Sign in to the [https://portal.azure.com](https://portal.azure.com) as a tenant administrator.
 2. Select **Microsoft Entra ID**.
