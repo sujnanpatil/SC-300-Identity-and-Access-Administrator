@@ -57,13 +57,11 @@ Use Azure Key Vault to securely manage and rotate secrets, keys, and certificate
    
 1. You will have to create an administrator username and password for the VM on the basics tab.
 
-1. On the **Management** tab, check the box to **Enable system assigned managed identity**.
+1. On the **Management (1)** tab, check the box to **Enable system assigned managed identity (2)** and click on **Review + Create**.
 
    ![](./media/sc-300-lab16-4.png)
 
-1. Go through the rest of the experience of creating a virtual machine. 
-
-1. Select Create
+1. Select **Create**.
 
      >**Note**: Please wait till the deployment is successful.
    
