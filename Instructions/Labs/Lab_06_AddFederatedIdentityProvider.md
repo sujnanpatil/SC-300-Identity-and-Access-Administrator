@@ -15,11 +15,11 @@ After completing this lab, you will be able to:
 
 ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch06.png)
 
-#### Estimated time: 25 minutes
+## Estimated time: 25 minutes
 
 ### Exercise 1 - Configure identity providers
 
-#### Task 1 - Configure Google to be used as an identity provider
+### Task 1 - Configure Google to be used as an identity provider
 
 **Important Note** - For this exercise, you will need a Gmail account on Google. You can use your **personnel Gmail account** or  create a **new Google account** and then follow the steps for the exercise.  Be sure to note the email address and password, they are necessary to complete the lab.
 
@@ -84,7 +84,7 @@ After completing this lab, you will be able to:
 
 17. You can leave your project at a publishing status of Testing.
 
-#### Task 2 - Add a test user
+### Task 2 - Add a test user
 
 1. Select the **OAuth consent screen** under APIs and Services menu.
 
@@ -95,9 +95,9 @@ After completing this lab, you will be able to:
 4. Select **Save**.
 
 
-### Exercise 2 - Configure Azure to work with an External identity provider
+## Exercise 2 - Configure Azure to work with an External identity provider
 
-#### Task 1 - Configure Microsoft Entra ID for Google federation
+### Task 1 - Configure Microsoft Entra ID for Google federation
 
 1. Navigate back to the Azure Portal.
 
@@ -125,7 +125,7 @@ This completes the configuration of Google as an identity provider.
    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-#### Task 2 - Invite you Test User account
+### Task 2 - Invite you Test User account
 
 1. Open **Microsoft Entra ID**.
 
@@ -148,7 +148,7 @@ This completes the configuration of Google as an identity provider.
 
      <validation step="7cf29cba-eb1e-4f7d-b267-186788edd5f7" />
 
-#### Task 3 - Accept the invitation and login
+### Task 3 - Accept the invitation and login
 1. Open an InPrivate browser to log into your gmail account.
 
 2. Open the **Microsoft Invitation on behalf of** in the Inbox.
@@ -167,7 +167,7 @@ This completes the configuration of Google as an identity provider.
 
 7. Once login is complete, **My Apps** page will display.
 
-#### Task 4 - Login to Microsoft 365 using your Google account
+### Task 4 - Login to Microsoft 365 using your Google account
 1. Once you have finished the external user invite process of Task 3, you can log directly into Microsoft Online.
 
 2. Open a new tab in the browser you have open.
