@@ -162,9 +162,12 @@ Use Azure Key Vault to securely manage and rotate secrets, keys, and certificate
 
 1. Select the virtual machine that you created in Task-1, that is **VM-<inject key="DeploymentID" enableCopy="false"/>**.
 
-1. Select **Connect**, under **Most common**, choose **Select**, and select **Download RDP file**. Open the downloaded file, select **Connect**, and enter the VM credentials, that is username which is **azureuser**, and password which is **Password@..!!**, select **OK**. Select **Yes** on the certificate pop-up.
+1. Select **Connect**, under the **Connect** tab, choose **Select**, and select **Download RDP file**.
+   
     ![](./media/lab16-11.png)
 
+1. Open the downloaded file, select **Connect**, and enter the VM credentials, that is username which is **azureuser**, and password which is **Password@..!!**, select **OK**. Select **Yes** on the certificate pop-up.
+   
 1. In the virtual machine, from the **start meanu** search and select **Windows PowerShell**.  
 
    ![](./media/sc-300-lab16-6.png)
