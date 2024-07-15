@@ -33,13 +33,13 @@ After completing this lab, you will be able to:
 
 6. Select **+ Add Assignments**. From the list of roles, choose **Conditional Access Administrator** and click **Add >**.
  
-   ![Screen image displaying the User risk policy page and highlighted browsing path](./media/assign1.png)
+   ![Screen image displaying the User risk policy page and highlighted browsing path](./media/assign2.png)
 
 ### Exercise 1 - Enable User risk policy
 
 #### Task 1 - Configure the policy
 
-1. Sign in to the [https://portal.azure.com]( https://portal.azure.com) using a Global administrator account.
+1. Sign in to the [https://entra.microsoft.com](https://entra.microsoft.com) using a Global administrator account.
 
 2. Open the portal menu and then search for and select **Microsoft Entra ID**.
 
