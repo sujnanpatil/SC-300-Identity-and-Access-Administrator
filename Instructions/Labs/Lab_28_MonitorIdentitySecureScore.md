@@ -26,7 +26,7 @@ In this lab, you will complete the following tasks:
 
 2. From the left-hand navigation pane, select **Protection > Identity Secure Score** to view the dashboard.
 
-3. In the **Identity Secure Score** This will take you to the Identity Secure Score dashboard.
+3. Select **Identity Secure Score**. This will take you to the Identity Secure Score dashboard.
 
 4. Scroll down to view the **Improvement actions**.
 
@@ -36,13 +36,13 @@ In this lab, you will complete the following tasks:
 
 1. Select **Identity Protection**, from the left-hand navigation menu.
 
-1. Select **Sign-in risk policy** from the left pane.
+1. Select **Sign-in risk policy** from the left pane under **Protect** option.
 
 1. Select **All users** under **Assignments**.
 
-1. Select **low and above** under Sign-in risk and then select **Medium and above**.
+1. Select **low and above** under Sign-in risk and then select **Medium and above** then click **Done**.
 
-1. Select **Allow** - **Require multi-factor authentication**, (if not done so already) under **Controls**.
+1. Under **Controls** select **Allow access** - **Require multifactor authentication**, (if not done so already) then click **Done**.
 
 1. Turn the **Policy enforcement** to **Enabled** (if not done so already), and select **Save**.
 
