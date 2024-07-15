@@ -31,9 +31,9 @@ After completing this lab, you will be able to:
 
    ![Screen image displaying the User risk policy page and highlighted browsing path](./media/assigned-roles.png)
 
-6. Select **+ Add Assignments**. From the list of roles, choose **Conditional Access Administrator** and click **Next >**. Finally, click **Assign**.
+6. Select **+ Add Assignments**. From the list of roles, choose **Conditional Access Administrator** and click **Add >**.
  
-   ![Screen image displaying the User risk policy page and highlighted browsing path](./media/assign.png)
+   ![Screen image displaying the User risk policy page and highlighted browsing path](./media/assign1.png)
 
 ### Exercise 1 - Enable User risk policy
 
