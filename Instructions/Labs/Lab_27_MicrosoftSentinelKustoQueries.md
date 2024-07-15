@@ -27,7 +27,7 @@ Configuring Microsoft Sentinel for Kusto Queries enables advanced log and securi
 
 1. On the **Microsoft Sentinel** page, select **+ Create**.
 
-1. In the **Add Microsoft Sentinel to a workspace** tile, select **Create a new workspace**.
+1. In the **Add Microsoft Sentinel to a workspace** tile, select **+ Create a new workspace**.
 
 1. In **Resource group**, select **sc-300-rg**.
 
@@ -41,11 +41,12 @@ Configuring Microsoft Sentinel for Kusto Queries enables advanced log and securi
 
 1. If prompted, select **OK** to activate the Microsoft Sentinel free trial.
 
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-   > - Hit the Validate button for the corresponding task. You can proceed to the next task if you receive a success message.
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+   <validation step="4e426e86-3c79-41e6-b8e8-1c53996176e3" />
 
 #### Task 2 - Add Microsoft Entra ID as a Data source
 
@@ -57,7 +58,7 @@ Configuring Microsoft Sentinel for Kusto Queries enables advanced log and securi
 
 1. To the right, a preview tile will open.  Select **Install**.
 
-1. Once installation is done. navigate back to the menu to **Configuration** and select **Data connectors (1)** .
+1. Once installation is done, navigate back to the menu to **Configuration** and select **Data connectors (1)** .
 
 1. Select **Microsoft Entra ID** connector name and to the right, a preview tile will open click on **Open connector page**.
 
@@ -88,19 +89,7 @@ Configuring Microsoft Sentinel for Kusto Queries enables advanced log and securi
 
    ![](./media/audit.png)
 
-1. This will provide a list of User IDs on Azure AD.  Since we have just created the workspace, you may not see results. Copy the format of the query and paste it in notepad you need this in next step.
-
-1. From the left-hand navigation menu, under **Threat management** section, select **Hunting**.
-
-1. Select **Queries** from the tab and click on **+ New query** from top.
-
-1. Enter the name as **Anomalous sign-in location by user account and authenticating application** and paste the query which you have copied earlier in this task.
-
-1. This query over Microsoft Entra ID sign-in considers all user sign-ins for each Microsoft Entra ID application and picks out the most anomalous change in location profile for a user within an individual application. The intent is to hunt for user account compromise, possibly via a specific application vector. 
-
-1. Select **View query results** to run the query.
-
-1. This may not provide results with the new workspace, but you now have seen how queries can be run to gather information or for hunting potential threats.
+1. This will provide a list of User IDs on Microsoft Entra ID. Since we have just created the workspace, you may not see results. Note the format of the query.
 
 
 ## Review
