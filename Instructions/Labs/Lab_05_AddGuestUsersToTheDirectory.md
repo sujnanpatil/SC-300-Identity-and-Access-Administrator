@@ -122,7 +122,9 @@ A recent partnership has been established with another company. For now, employe
     Connect-MgGraph -Scopes "User.ReadWrite.All"
     ```
      
-    The Edge browser will open and you will be prompted to sign-in.  Use the MOD Administrator account to connect.  Accept the permissions request; then close the browser window.
+    The Edge browser will open and you will be prompted to sign-in.  Use the ODL user account to connect.  Accept the permissions request; then close the browser window.
+
+    >**Note**: In the pop-up that appears click on **Yes**.
     
 1. Set the values for the email and redirect for the External user:
    
