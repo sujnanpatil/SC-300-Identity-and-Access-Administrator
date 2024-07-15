@@ -80,9 +80,11 @@ After completing this lab, you will be able to:
    
       >**Note:** Replace the Tenant ID and Tenant Name with the your Tenant ID and Tenant Name. Go to Azure portal and search for and select **Microsoft Entra ID** in the overview page copy the **Tenant ID** and **Tenant Name**.
 
-16. Select **Create**. Copy your **client ID** and **client secret**. You'll use them when you add the identity provider in the Azure portal. Select **OK**.
+16. Select **Create**.
 
-17. You can leave your project at a publishing status of Testing.
+17. Click on the newly created **Credential** and copy your **client ID** and **client secret**. You'll use them when you add the identity provider in the Azure portal. Select **OK**.
+
+18. You can leave your project at a publishing status of Testing.
 
 ### Task 2 - Add a test user
 
@@ -118,12 +120,6 @@ After completing this lab, you will be able to:
 8. Select **Save**.
 
 This completes the configuration of Google as an identity provider.
-
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Task 2 - Invite you Test User account
 
