@@ -123,15 +123,17 @@ To include resources in an access package, the resources must exist in a catalog
 1. In the **Catalogs** list, select **Marketing**.
 
 1. From the left-hand navigation pane, under **Manage**, select **Resources** and on the menu, select + **Add resources**.
+
    ![](./media/lab22-5.png)
 
 1. Select **+ Groups and Teams**. In the Add resources to catalog page, review the available options. Add the following items: **Box**, **Retail**, **Salesforce**, and **SharePoint sites**.
+
    ![](./media/lab22-6.png)
 
 1. Back on **Add recources to catalog** page and click on **Add**, these resources can now be included in access packages within the catalog.
-     ![](./media/lab22-7.png)
 
-   **Note**: For this exercise, it is okay to choose any resource you may have available.
+     ![](./media/lab22-7.png)
+     >**Note**: For this exercise, it is okay to choose any resource you may have available.
 
 #### Task 4 - Add additional catalog owners
 
