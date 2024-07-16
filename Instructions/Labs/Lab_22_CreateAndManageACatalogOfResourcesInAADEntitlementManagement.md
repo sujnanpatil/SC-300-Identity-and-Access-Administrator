@@ -41,14 +41,14 @@ Building out resources in Entitlement Management involves defining and structuri
 1. In the New catalog pane, specify the following details and click on **Create (4)**.
 
 
-   | **Option**                          | **Value**                               |
-   | ----------------------------------- | --------------------------------------- |
-   | **Name**                            | **Marketing**.                     |
-   | **Description**                     | Enter **For marketing department users**.                 |
-   | **Enabled**                         | **No**. |
-   |||
-
-   ![Screen image displaying the Identity governance catalog page with the New catalog menu highlighted ](./media/lab22-4-(1).png)
+      | **Option**                          | **Value**                               |
+      | ----------------------------------- | --------------------------------------- |
+      | **Name**                            | **Marketing**.                     |
+      | **Description**                     | Enter **For marketing department users**.                 |
+      | **Enabled**                         | **No**. |
+      |||
+   
+      ![Screen image displaying the Identity governance catalog page with the New catalog menu highlighted ](./media/lab22-4-(1).png)
 
 1. You may choose to enable the catalog for immediate use or disable if you intend to stage it or keep it unavailable until you intend to use it. For this exercise, the catalog does not need to be enabled.
 
