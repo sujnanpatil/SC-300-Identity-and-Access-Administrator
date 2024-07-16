@@ -56,9 +56,9 @@ In this exercise, you will learn to create a conditional access policy in Micros
 
 3. Open the portal menu and then select Microsoft Entra ID.
    
-4. On the menu, under **Identity**, select **Protection**.
+4. On the menu, under **Identity(1)**, select **Protection(2)**.
 
-5. On the Security page, in the left navigation, select **Conditional access**.
+5. On the Security page, in the left navigation, select **Conditional access(3)**.
    
    ![image](https://github.com/user-attachments/assets/315897f5-79b0-458e-9e12-a15f1791ac0b)
 
@@ -172,9 +172,9 @@ The "What if" feature in Microsoft Entra ID's conditional access policies is a p
 
 3. Open the portal menu and then select Microsoft Entra ID.
    
-4. On the menu, under **Identity**, select **Protection**.
+4. On the menu, under **Identity(1)**, select **Protection(2)**.
 
-5. On the Security page, in the left navigation, select **Conditional access**.
+5. On the Security page, in the left navigation, select **Conditional access(3)**.
    
    ![image](https://github.com/user-attachments/assets/315897f5-79b0-458e-9e12-a15f1791ac0b)
 
@@ -231,9 +231,9 @@ As part of your company's larger security configuration, you must test a conditi
 
 3. Open the portal menu and then select Microsoft Entra ID.
    
-4. On the menu, under **Identity**, select **Protection**.
+4. On the menu, under **Identity(1)**, select **Protection(2)**.
 
-5. On the Security page, in the left navigation, select **Conditional access**.
+5. On the Security page, in the left navigation, select **Conditional access(3)**.
    
    ![image](https://github.com/user-attachments/assets/315897f5-79b0-458e-9e12-a15f1791ac0b)
 
@@ -250,6 +250,7 @@ As part of your company's larger security configuration, you must test a conditi
     - In the Select pane, select **ODL_user <inject key="DeploymentId" enableCopy="false" /> (6)** account and then click on **Select (7)**.
 
     ![](./media/lab13-ms-entra-id-21.png)
+   
     ![](./media/lab13-ms-entra-id-22.png)
 
 8. In order to implement sign in reauthentication frequency to a specific app for the user, execute the following configurations while creating the conditional access policy:
