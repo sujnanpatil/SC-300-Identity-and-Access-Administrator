@@ -19,9 +19,11 @@ In this lab, you will complete the following tasks:
 
 Registering your application establishes a trust relationship between your app and the Microsoft identity platform. The trust is unidirectional: Your app trusts the Microsoft identity platform—not the other way around.
 
-1. Select the **Show portal menu** hamburger icon and then select **Microsoft Entra ID**.
+1. Navigate to `portal.azure.com`.
+   
+1. In **Search resources, services and docs (1)** search and select for **Microsoft Entra ID (2)**.
 
-    ![Azure portal menu with Azure Active Directory selected](./media/msentrid.png)
+   ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/MicrosoftentraID.png)
 
 1. On the **Microsoft Entra ID** blade, under **Manage**, select **App registrations.**
 
