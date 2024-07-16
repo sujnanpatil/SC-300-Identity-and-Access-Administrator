@@ -118,11 +118,7 @@ Registering your application establishes a trust relationship between your app a
 
    >**Note:** If you get  **Your new endpoint protection home** page close it.
 
-1. From the left-hand navigation pane, scroll to the bottom and select **More resources**.
-
-1. In the **More resources** window, locate and select **Open** under **Microsoft 365 Defender**.  This will take you to the **Microsoft 365 Defender** portal.
-
-1. In the **Microsoft 365 Defender** portal menu, from the left-hand navigation pane, under **Cloud apps** select **Policies** drop-down, and select **Policy management**.
+1. In the **Microsoft Defender** portal menu, from the left-hand navigation pane, under **Cloud apps** select **Policies** drop-down, and select **Policy management**.
 
 1. Click the **Enable Office 365 Cloud App Security** to allow your subscription to use Office 365 Cloud App Security.
 
@@ -169,7 +165,7 @@ Registering your application establishes a trust relationship between your app a
 
 ### Task 3 - Review the Activity in Defender for Cloud Apps
 
-1. Return to the browswer running Microsoft 365 Defender.
+1. Return to the browswer running Microsoft Defender.
 
 2. Refresh the browser to ensure the most recent data is downloaded.
 
