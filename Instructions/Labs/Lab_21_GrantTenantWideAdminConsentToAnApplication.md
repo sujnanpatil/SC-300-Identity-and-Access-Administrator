@@ -25,19 +25,25 @@ Registering your application establishes a trust relationship between your app a
 
 Registering your application establishes a trust relationship between your app and the Microsoft identity platform. The trust is unidirectional: Your app trusts the Microsoft identity platform—not the other way around.
 
-1. Navigate to Azure Portal, in **Search resources, services and docs (1)** search and select for **Microsoft Entra ID (2)**.
+1. Sign in to the [https://entra.microsoft.com](https://entra.microsoft.com) using a Global administrator account.
 
-   ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/MicrosoftentraID.png)
+2. Open the portal menu and then select **Identity**.
 
-2. On the **Microsoft Entra ID** blade, under **Manage**, select **App registrations.**
+3. On the Identity menu, under **Applications**, select **App registrations**.
 
-3. On the **App registrations** page, on the menu, select **+ New registration**.
+4. In the App registrations pane, select **+ New registrations**.
 
-4. On the **Register an application** blade, register an app named **Demo app (1)** using the default values. You do not need to enter the redirect URI and click on **Register (2)**.
+   ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/entraid1.png)
 
-    ![Screen image displaying the Register an application blade with the name and default settings highlighted](./media/demoapp1.png)
+5. On the **Microsoft Entra ID** blade, under **Manage**, select **App registrations.**
 
-5. When complete, you will be directed to the **Demo app** blade.
+6. On the **App registrations** page, on the menu, select **+ New registration**.
+
+7. On the **Register an application** blade, register an app named **Demo app (1)** using the default values. You do not need to enter the redirect URI and click on **Register (2)**.
+
+    ![Screen image displaying the Register an application blade with the name and default settings highlighted](./media/demoapp2.png)
+
+8. When complete, you will be directed to the **Demo app** blade.
 
      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
      > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
@@ -57,7 +63,7 @@ The Global Administrator role is required in order to provide admin consent for 
 
 2. On the **Demo app** page, locate and copy and save each **Application (client) ID** and **Directory (tenant) ID** values so that you can use them later.
 
-    ![Screen image displaying the Demo app page with the directory ID highlighted](./media/appid121.png)
+    ![Screen image displaying the Demo app page with the directory ID highlighted](./media/lp3-mod3-demo-app-directory-id1.png)
 
 3. In the left navigation, under **Manage**, select **API permissions**.
 
@@ -73,7 +79,7 @@ The Global Administrator role is required in order to provide admin consent for 
 
 You can grant tenant-wide admin consent through Enterprise applications if the application has already been provisioned in your tenant.
 
-1. In Microsoft Azure, browse to **Microsoft Entra ID > Enterprise applications > Demo app.**
+1. In Microsoft Entra admin center, browse to **Identity > Applications > Enterprise applications > Demo app.**
 
 2. On the **Demo app** page, in the left navigation, under **Security,** select **Permissions.**
 
