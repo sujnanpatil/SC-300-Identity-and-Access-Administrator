@@ -46,7 +46,7 @@ Use Azure Key Vault to securely manage and rotate secrets, keys, and certificate
    - Username: **azureuser (4)**
    - Password: **Password@..!!(5)**
    - Confirm Password: **Password@..!! (6)**
-   - Ensure the checkbox towards the end is checked whcih states that you have an eliglible Windows 10/11 License.
+   - Ensure the checkbox towards the end is checked which states that you have an eligible Windows 10/11 License.
 
       ![](./media/sc-300-lab16-1.png)
 
@@ -99,7 +99,7 @@ Use Azure Key Vault to securely manage and rotate secrets, keys, and certificate
 
 1. Select **Create**.
 
-1. Once deloyement is completed click on **Go to resources**
+1. Once deployement is completed click on **Go to resources**
 
 1. On **keyvault-<inject key="DeploymentID" enableCopy="false"/>** page copy the url and paste that URL in notepad you need this values in further tasks.
    ![](./media/lab16-6.png)
