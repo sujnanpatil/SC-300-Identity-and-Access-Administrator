@@ -34,19 +34,25 @@ After completing this lab, you will be able to complete the following exercises:
    | Username | pradeep.gupta@`your domain name.com`|
    | Password| Enter the password for Pradeep Gupta|
 
-4. To find the username for **Pradeep Gupta**, login to the Azure portal using the credentials given in the **Environment Details** page navigate to the Users section of the Microsoft Entra ID, and copy the user name.
+4. To find the username for **Pradeep Gupta**, login to the Azure portal using the credentials given in the **Environment Details** page
 
-5. From the Microsoft Entra ID **Users** section, click on **Pradeep Gupta** user, and from the top navigation pane click on **Reset Password** and copy the temporary password and login  and reset the password to **Pa55w.rd@123**
+5. Navigate to Azure Portal, in **Search resources, services and docs (1)** search and select for **Microsoft Entra ID (2)**.
+
+   ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/MicrosoftentraID.png)
+
+6. Navigate to the **Users** section of the Microsoft Entra ID, and copy the mail id of Pradeep Gupta.
+
+7. From the Microsoft Entra ID **Users** section, click on **Pradeep Gupta** user, and from the top navigation pane click on **Reset Password** and copy the temporary password and login  and reset the password to **Pa55w.rd@123**
 
     ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/pradeep.png)
 
    >**Note:** Copy the username and password of Pradeep in a notepad file because you will be needing it for further tasks.
     
-7. Confirm that Microsoft Forms opens and that you do not get any warning messages.
+8. Confirm that Microsoft Forms opens and that you do not get any warning messages.
 
    >**Note:** You will not have access to Microsft Forms.
 
-8. Close the InPrivate browsing window.
+9. Close the InPrivate browsing window.
 
 ### Task 2 - Configure Microsoft Entra ID to work with Defender for Cloud Apps
 
