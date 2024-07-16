@@ -42,6 +42,8 @@ After completing this lab, you will be able to complete the following exercises:
 
 6. Navigate to the **Users** section of the Microsoft Entra ID, and copy the mail id of Pradeep Gupta.
 
+   ![image](./media/sc-300-lab18-2.png)
+
 7. From the Microsoft Entra ID **Users** section, click on **Pradeep Gupta** user, and from the top navigation pane click on **Reset Password** and copy the temporary password and login  and reset the password to **Pa55w.rd@123**
 
     ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/pradeep.png)
@@ -114,6 +116,8 @@ After completing this lab, you will be able to complete the following exercises:
 
 4. Close the InPrivate browsing window.
 
+   >**Note:** If the above message does not appear as expected, verify if the conditional access policy has been created. If it has, refresh the page and wait for a while for the message to appear.
+
 ## Exercise 2 - Setup alerts in Microsoft Defender for Cloud Apps
 
 Registering your application establishes a trust relationship between your app and the Microsoft identity platform. The trust is unidirectional: Your app trusts the Microsoft identity platform—not the other way around.
@@ -129,6 +133,8 @@ Registering your application establishes a trust relationship between your app a
    ![image](./media/sc-300-lab18-1.png)
 
 1. Select **+ Create policy**. Select **Access policy**.
+
+   >**Note:** If you encounter a situation where no conditional access policy appears to be active even though one has been created, please try refreshing the page or logging out and back in.
 
 1. Enter a name for the policy, **Monitor Microsoft Forms access**.
 
@@ -182,6 +188,8 @@ Registering your application establishes a trust relationship between your app a
 5. Notice the sign-on records for Pradeep.
 
    ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/msforms2.png)
+
+   >**Note:** Please logout and loin for the logs to appear.
 
 ### Review
 
