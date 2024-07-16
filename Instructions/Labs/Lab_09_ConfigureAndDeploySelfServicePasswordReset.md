@@ -26,10 +26,19 @@ You want to roll out SSPR to a limited set of users first to make sure your SSPR
 
 You want to roll out SSPR to a limited set of users first to make sure your SSPR configuration works as expected. Let's create a security group for the limited rollout and add a user to the group.
 
-1. On the Microsoft Entra admin center, open the **Identity** navigation menu on the left.
-1. Under **Groups**, select **All groups** and select **New Group** on the right side window.
+1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Entra ID (1)**, and then select **Microsoft Entra ID (2)** under services.
 
-2. Create a new group using the following information:
+    ![](./media/lab08-sc300-3.png)
+
+1. On the **Microsoft Entra ID** blade, under **Manage** section, select **Groups**. 
+
+    ![](./media/lab09-sc300-1.png)
+
+1. On **Group | All groups** and select **+ New Group**.
+
+    ![](./media/lab09-sc300-2.png)
+
+1. Create a new group using the following information:
 
     | **Setting**| **Value**|
     | :--- | :--- |
@@ -40,11 +49,14 @@ You want to roll out SSPR to a limited set of users first to make sure your SSPR
     | Members| Alex Wilber |
     | |  Allan Deyoung |
     | | Bianca Pisani |
-  
+
+    ![](./media/lab09-sc300-3.png)
+
 3. Select **Create**.
 
-    ![Screen image displaying the New Group page with group type, group name, and create highlighted](./media/lp2-mod2-create-sspr-security-group.png)
+    ![](./media/lab09-sc300-4.png)
 
+   <validation step="e11d21a6-fbc6-42b0-8271-5413eb1ee9b4" />
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
@@ -58,20 +70,22 @@ You want to roll out SSPR to a limited set of users first to make sure your SSPR
 
 1. Under **Manage**, select **Password reset**.
 
-   ![](./media/lab9-4.png)
+   ![](./media/lab09-sc300-5.png)
 
-1. On the Password reset page Properties page, under **Self service password reset enabled**, review the **Selected** button is selected.
+1. On the Password reset page Properties page, under **Self service password reset enabled**, review the **Selected** button is selected if not follow the below steps.
 
-1. Skip following steps if Select group **SSPRTesters**, is already selected, if not plesae perform below step:
+   -  Under **Self service password reset enabled** select the **Selected (1)** button then click on **No groups selected (2)** under **Select group**.
 
-   - You can review in Select group **SSPRSecurityGroupUser**, is selected.
+      ![](./media/lab09-sc300-6.png)
+      
+   - On Default password reset policy** select **SSPRTesters** then click on **Select** 
 
-   - Click on the **SSPRSecurityGroupUser**. In the **Default password reset policy** pane, select the **SSPRTesters (2)** group.
- 
-   -  On the Password reset page Properties page, select **Save (3)**.
+      ![](./media/lab09-sc300-7.png)
 
-      ![Screen image displaying the Password reset properties page with selected, select group, and save highlighted](./media/SSPR-save.png)
+    - Under Selected group make sure SSPRTesters is selectes and click on **Save**.
 
+      ![](./media/lab09-sc300-8.png)
+      
 1. Under **Manage**, select and review the default values for the **Authentication methods**, **Registration**, **Notifications**, and **Customization** settings.
 
     >**Note** it is important to have **phone** selected as one of the authentication methods for the rest of this lab, but you can have other options as well.
