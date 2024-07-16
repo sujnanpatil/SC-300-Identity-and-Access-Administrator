@@ -36,7 +36,7 @@ After completing this lab, you will be able to complete the following exercises:
 
 4. To find the username for **Pradeep Gupta**, login to the Azure portal using the credentials given in the **Environment Details** page
 
-5. Navigate to Azure Portal, in **Search resources, services and docs (1)** search and select for **Microsoft Entra ID (2)**.
+5. In **Search resources, services and docs (1)** search and select for **Microsoft Entra ID (2)**.
 
    ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/MicrosoftentraID.png)
 
