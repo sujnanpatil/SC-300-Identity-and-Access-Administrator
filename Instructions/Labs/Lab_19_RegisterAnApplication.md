@@ -49,8 +49,7 @@ To configure application settings based on the platform or device you're targeti
 
 3. Under **Platform configurations**, select **+ Add a platform**.
 
-4. In **Configure platforms**, select the **Mobile and desktop applications** tile, and add the following URI under **Custom redirect URIs** parameter.
-- **[https://login.microsoftonline.com/common/oauth2/nativeclient](https://login.microsoftonline.com/common/oauth2/nativeclient)**.
+4. In **Configure platforms**, select the **Mobile and desktop applications** tile, and select **[https://login.microsoftonline.com/common/oauth2/nativeclient](https://login.microsoftonline.com/common/oauth2/nativeclient)**.
 
     ![Screenshot of the Platform configuration pane in the Azure portal](./media/configure-platforms.png)
 
