@@ -48,12 +48,11 @@ Use Azure Key Vault to securely manage and rotate secrets, keys, and certificate
    - Confirm Password: **Password@..!! (6)**
    - Ensure the checkbox towards the end is checked whcih states that you have an eliglible Windows 10/11 License.
 
+      ![](./media/sc-300-lab16-1.png)
 
-     ![](./media/sc-300-lab16-1.png)
+      ![](./media/sc-300-lab16-2.png)
 
-     ![](./media/sc-300-lab16-2.png)
-
-     ![](./media/sc-300-lab16-3.png)
+      ![](./media/sc-300-lab16-3.png)
    
 1. You will have to create an administrator username and password for the VM on the basics tab.
 
