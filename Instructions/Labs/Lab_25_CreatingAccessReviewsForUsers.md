@@ -39,21 +39,25 @@ Creating an internal Access review involves regularly evaluating and validating 
 1. Return back to **Microsoft Entra ID** page, from the left-hand navigation pane, under the **Manage** section select **Identity Governance**.
 
 1. On **Identity Goverance** blade, under **Access reviews** section, select **Access reviews** from left panel.
-     ![Azure portal menu with Azure Active Directory selected](./media/lab25-3.png)
+
+   ![Azure portal menu with Azure Active Directory selected](./media/lab25-3.png)
 
    **Note**: Access reviews can manage the access lifecycle.
 
 1. On **Identity Governance | Access reviews** blade Select **+ New access review**.
+
    ![Azure portal menu with Azure Active Directory selected](./media/lab25-4.png)
 
 1. In the **Select what to review** box choose **Teams + Groups** from the dropdown and for **Review scope** select **Select Teams + groups**.
-    ![Azure portal menu with Azure Active Directory selected](./media/lab25-5.png)
+
+   ![Azure portal menu with Azure Active Directory selected](./media/lab25-5.png)
 
 1. For **Groups** select **+Select group(s)**, on **Select group** window select **Sales and Marketing** group from the list, and hit **Select**.
 
     ![Azure portal menu with Azure Active Directory selected](./media/lab25-(6).png)
    
 1. Back on **New access review**, set the **Scope** to **All users** and select **Next: Reviews** option for move forward in the wizard.
+
    ![Azure portal menu with Azure Active Directory selected](./media/lab25-1(7).png)
 
 1. The next step is to determine the reviewers. These reviewers can be the member themselves to do a self-review or can be assigned to supervisors if reviewing access for an entire department. You can also set the action when a reviewer does not respond to automatically remove that privileged access from the member.
