@@ -22,13 +22,14 @@ Configuring an Enterprise App involves setting up and managing the identity and 
 
 ### Task 1: Add an app to your Microsoft Entra ID tenant
 
-1. In Azure Portal, in **Search resources, services and docs** type **Microsoft Entra ID** and select it.
+1. Sign in to the [https://entra.microsoft.com](https://entra.microsoft.com) using the below credentials.
 
-    ![](./media/ms-entra-id-1.png)
+   - **Email/Username:**<inject key="AzureAdUserEmail"></inject>**
+   - **Password:**<inject key="AzureAdUserPassword"></inject>**
 
-2. On the Microsoft Entra ID page, under **Manage**, select **Enterprise applications**.
+2. On the Identity menu, under **Applications**, select **Enterprise applications**.
 
-    ![](./media/enterprise-apps-1.png)
+    ![](./media/lab20-1.2.png)
 
 3. In the Enterprise applications pane, select **+ New application**.
 
@@ -48,12 +49,6 @@ Configuring an Enterprise App involves setting up and managing the identity and 
     ![](./media/enterprise-apps-4.png)
 
 <validation step="68af99af-30de-40e5-aba0-b9bdb16a937e" />
-
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Task 2: Assign users to an app
 
