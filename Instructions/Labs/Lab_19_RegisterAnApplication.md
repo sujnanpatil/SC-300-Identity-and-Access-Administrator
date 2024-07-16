@@ -143,6 +143,7 @@ Next, add another example scope named Employees.Write.All that only admins can
    scopes associated with several operations. Your resource can control access to the web API at runtime by evaluating the scope (scp) claim(s) in the OAuth 2.0 access token it receives.
 
      > **Note**: For example, if your web API's application ID URI is `https://contoso.com/api` and the scope name is Employees.Read.All, the full scope is: `https://contoso.com/api/Employees.Read.All`
+     
      > **Note**: Next, you will configure a client app's registration with access to your web API and the scopes you defined by following the steps above.
     
      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
