@@ -30,21 +30,28 @@ In this exercise, you will learn how to use Microsoft Entra terms of use policie
 
 Once you have finalized your terms of use document, use the following procedure to add it.
 
-1. Connect to [https://entra.microsoft.com](https://entra.microsoft.com) using ODL user 
-   Credential which is Environment tab. 
+1. Connect to [https://entra.microsoft.com](https://entra.microsoft.com).
 
-2. Open select **Identity Governance** in the lefthand navigation menu.
+2. Sign in using below credential.
+   | Setting | Value |
+   | :--- | :--- |
+   | Username | **<inject key="AzureAdUserEmail" enableCopy="true" />** |
+   | Password | **<inject key="AzureAdUserPassword" enableCopy="true" />** |
+
+3. Open select **Identity Governance** in the lefthand navigation menu.
    
-3. In the menu, under **Entitlement management**.
+4. In the menu, under **Entitlement management**.
+   
    ![image](https://github.com/user-attachments/assets/e9b1a337-8c1d-4d58-ad5f-8ca2c9dadb04)
 
-3. To create a new term,
+5. To create a new term,
     - In the left navigation menu of the **Identity Governance** page, under **Terms of use**, select **Terms of use (1)**.
     - On the Terms of use page, on the top menu, select **+ New terms (2)**
 
-    ![image](https://github.com/user-attachments/assets/5e1a23d1-4c88-40ed-896e-9b2db8eb78fc)
+      ![image](https://github.com/user-attachments/assets/ff72f667-1e82-4a0a-aca5-de00bd363c16)
 
-4. Within the **New terms of use** page, configure the following:
+
+6. Within the **New terms of use** page, configure the following:
     
     - **Name:** Enter **Testing terms of use (1)**. This is the terms of use that will be used in the Azure portal.
     
@@ -68,11 +75,11 @@ Once you have finalized your terms of use document, use the following procedure 
 
       ![](./media/lab23-3.png)
 
-6. When **Expire consents** is set to **On**, two additional schedule settings are displayed:
+7. When **Expire consents** is set to **On**, two additional schedule settings are displayed:
 
     ![](./media/lab23-3-1.png)
 
-7. Use the **Expire starting on (1)** and **Frequency (2)** settings to specify the schedule for terms of use expirations. The following table shows the result for a couple of example settings:
+8. Use the **Expire starting on (1)** and **Frequency (2)** settings to specify the schedule for terms of use expirations. The following table shows the result for a couple of example settings:
 
     | Expire starting on | Frequency | Result |
     |---|---|---|
@@ -88,7 +95,7 @@ Once you have finalized your terms of use document, use the following procedure 
 
      ![](./media/lab23-3-2.png)
 
-8. Use the **Duration before re-acceptance requires (days)** setting to specify the number of days before the user must reaccept the terms of use. This allows users to follow their own schedule. For example, if you set the duration to **30** days, here is how expirations might occur for two users:
+9. Use the **Duration before re-acceptance requires (days)** setting to specify the number of days before the user must reaccept the terms of use. This allows users to follow their own schedule. For example, if you set the duration to **30** days, here is how expirations might occur for two users:
 
     | User | First accept date | First expire date | Second expire date | Third expire date |
     |---|---|---|---|---|
@@ -99,7 +106,7 @@ Once you have finalized your terms of use document, use the following procedure 
 
    ![](./media/lab23-3-3.png)
 
-9. Under **Conditional Access**, select **Custom policy (1)** and then click on **Create (2)**.
+10. Under **Conditional Access**, select **Custom policy (1)** and then click on **Create (2)**.
 
     | Template | Description |
     |---|---|
@@ -114,7 +121,7 @@ Once you have finalized your terms of use document, use the following procedure 
 
     >**Note:** Custom Conditional Access policies enable granular terms of use, down to a specific cloud application or group of users. For more information, see [https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/require-tou](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/require-tou).
 
-10. When the terms of use is created, you will automatically be redirected to the Conditional access policy page. On the page,
+11. When the terms of use is created, you will automatically be redirected to the Conditional access policy page. On the page,
     - **Name:** Enter **Enforce ToU (1)**.
     - Under **Assignments**, click on **Users (2)**.
     - Within the **Include** tab, ensure to choose **Select users and groups (3)** radio button.
@@ -130,14 +137,14 @@ Once you have finalized your terms of use document, use the following procedure 
     ![](./media/lab23-4.png)
     ![](./media/lab23-5.png)
 
-11. In order to implement terms of use over a specific app for the user, execute the following configurations while creating the conditional access policy:
+12. In order to implement terms of use over a specific app for the user, execute the following configurations while creating the conditional access policy:
     - Under the **Target resources** section, click on **No target resources selected (1)**.
     - Ensure to have **Cloud apps (2)** option selected from the dropdown list.
     - Within the **Include** tab, choose the **All cloud apps (3)** radio button.
 
        ![](./media/lab23-6.png)
 
-12. To provide control access enforcement to block or grant access, perform the following:
+13. To provide control access enforcement to block or grant access, perform the following:
     - Under **Access controls**, select **0 controls selected (1)**.
     - In the Grant pane,
         - Select the **Grant access (2)** radio button.
@@ -159,7 +166,7 @@ Once you have finalized your terms of use document, use the following procedure 
 
       ![](./media/lab13-ms-entra-id-11.png)
 
-13. If you choose to use your own account, you can refresh your browser. You will be prompted to sign in again. When you sign in, you will be required to accept the terms of use.
+14. If you choose to use your own account, you can refresh your browser. You will be prompted to sign in again. When you sign in, you will be required to accept the terms of use.
 
      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
      > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
@@ -252,16 +259,23 @@ Users can review and see the terms of use that they have accepted by using the f
 
 You can edit some details of terms of use, but you can't modify an existing document. The following procedure describes how to edit the details.
 
-1. Connect to [https://entra.microsoft.com](https://entra.microsoft.com) using ODL user Credential which is Environment tab. 
-
-2. Open select **Identity Governance** in the lefthand navigation menu.
+1. Connect to [https://entra.microsoft.com](https://entra.microsoft.com).
    
-3. In the menu, under **Entitlement management**.
+2.Sign in using Below Credential.
+   | Setting | Value |
+   | :--- | :--- |
+   | Username | **<inject key="AzureAdUserEmail" enableCopy="true" />** |
+   | Password | **<inject key="AzureAdUserPassword" enableCopy="true" />** | 
+
+3. Open select **Identity Governance** in the lefthand navigation menu.
+   
+4. In the menu, under **Entitlement management**.
+   
    ![image](https://github.com/user-attachments/assets/e9b1a337-8c1d-4d58-ad5f-8ca2c9dadb04)
 
-4. In the left navigation menu, under **Terms of use**, select **Terms of use**.
+5. In the left navigation menu, under **Terms of use**, select **Terms of use**.
 
-5. To edit the terms of use details:
+6. To edit the terms of use details:
     - Select **Testing terms of use (1)**
     - On the top menu, select **Edit terms (2)**.
 
@@ -275,21 +289,21 @@ You can edit some details of terms of use, but you can't modify an existing docu
 
       ![](./media/lab23-13.png)
 
-5. In the **Language Options** table, identify the terms of use language you want to update and then, in the **Action** column, select **Update**.
+7. In the **Language Options** table, identify the terms of use language you want to update and then, in the **Action** column, select **Update**.
 
     ![](./media/lab23-13.png)
 
-6. The Update terms of use version pane will look like as shown as below    
+8. The Update terms of use version pane will look like as shown as below    
 
     ![](./media/lab23-14.png)
 
     >**Note:** You can also upload a new version of the  **Terms of Use Document** and choose the language of your choice.
 
-7. Additionally, you can use the **Require reaccept** toggle button if you want to require your users to accept this new version the next time they sign in. If you do not require your users to re-accept, their previous consent will stay current and only new users who have not consented before or whose consent expires will see the new version.
+9. Additionally, you can use the **Require reaccept** toggle button if you want to require your users to accept this new version the next time they sign in. If you do not require your users to re-accept, their previous consent will stay current and only new users who have not consented before or whose consent expires will see the new version.
 
-8. Once you have uploaded your new pdf and decided on re-accept, select **Add**.
+10. Once you have uploaded your new pdf and decided on re-accept, select **Add**.
 
-9. You will now see the most recent version under the Document column.
+11. You will now see the most recent version under the Document column.
 
 ## Review
 
