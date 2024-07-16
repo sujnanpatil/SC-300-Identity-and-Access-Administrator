@@ -41,13 +41,11 @@ Creating an internal Access review involves regularly evaluating and validating 
 1. On **Identity Goverance** blade, under **Access reviews** section, select **Access reviews** from left panel.
 
    ![Azure portal menu with Azure Active Directory selected](./media/lab25-3.png)
-
-    >**Note**: Access reviews can manage the access lifecycle.
+   >**Note**: Access reviews can manage the access lifecycle.
 
 1. On **Identity Governance | Access reviews** blade Select **+ New access review**.
 
    ![Azure portal menu with Azure Active Directory selected](./media/lab25-4.png)
-
 
 1. In the **Select what to review** box choose **Teams + Groups** from the dropdown and for **Review scope** select **Select Teams + groups**.
 
