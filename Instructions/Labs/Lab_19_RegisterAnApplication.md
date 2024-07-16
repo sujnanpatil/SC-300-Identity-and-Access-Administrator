@@ -13,9 +13,9 @@ In this lab, you will complete the following tasks:
 
 ## Estimated time: 30 minutes
 
-### Exercise 1 - Register an application
+## Exercise 1 - Register an application
 
-#### Task 1 - App registration
+### Task 1 - App registration
 
 Registering your application establishes a trust relationship between your app and the Microsoft identity platform. The trust is unidirectional: Your app trusts the Microsoft identity platform—not the other way around.
 
@@ -35,7 +35,7 @@ Registering your application establishes a trust relationship between your app a
 
 1. When complete, you will be directed to the **Demo app** blade.
 
-#### Task 2 - Configure platform settings
+### Task 2 - Configure platform settings
 
 Settings for each application type, including redirect URIs, are configured in **Platform configurations** in the Azure portal. Some platforms, like **Web** and **Single-page applications**, require you to manually specify a redirect URI. For other platforms, like mobile and desktop, you can select from redirect URIs generated for you when you configure their other settings.
 
@@ -55,7 +55,7 @@ To configure application settings based on the platform or device you're targeti
 
 6. Select **Configure** to complete the platform configuration.
 
-#### Task 3 - Add credentials, certificate and client secret
+### Task 3 - Add credentials, certificate and client secret
 
 Credentials are used by confidential client applications that access a web API. Examples of confidential clients include web apps, other web APIs, and service-type and daemon-type applications. Credentials allow your application to authenticate as itself, requiring no interaction from a user at runtime.
 
@@ -82,7 +82,7 @@ You can add both certificates and client secrets (a string) as credentials to yo
 With your web API registered, you're ready to add the scopes that your API's code can use to provide granular permission to consumers of your API.
 
 
-#### Task 4 - Add a scope
+### Task 4 - Add a scope
 
 The code in a client application requests permission to perform operations defined by your web API by passing an access token along with its requests to the protected resource (the web API). Your web API then performs the requested operation only if the access token it receives contains the scopes (also known as application permissions) required for the operation.
 
@@ -113,7 +113,7 @@ First, follow these steps to create an example scope named Employees.Read.All:
 
 1. Set the **State** to **Enabled**, and then select **Add scope**.
 
-#### Task 5 - Add a scope requiring admin consent
+### Task 5 - Add a scope requiring admin consent
 
 Next, add another example scope named Employees.Write.All that only admins can consent to. Scopes that require admin consent are typically used for providing access to higher-privileged operations, often by client applications that run as backend services or daemons that don't sign in a user interactively.
 
@@ -150,9 +150,9 @@ As shown in the image, a scope's full string is the concatenation of your web AP
 
      <validation step="6eec643a-ac27-4d9b-b23d-2b843753d8d6" />
 
-### Exercise 2 - Manage app registration with a custom role
+## Exercise 2 - Manage app registration with a custom role
 
-#### Task 1 - Create a new custom role to grant access to manage app registrations
+### Task 1 - Create a new custom role to grant access to manage app registrations
 
 You need to create a new custom role for app management. This new role should be limited to only the specific permissions required to perform credential management.
 
