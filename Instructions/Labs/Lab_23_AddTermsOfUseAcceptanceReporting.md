@@ -30,19 +30,19 @@ In this exercise, you will learn how to use Microsoft Entra terms of use policie
 
 Once you have finalized your terms of use document, use the following procedure to add it.
 
-1. In Azure Portal, in **Search resources, services and docs** type **Microsoft Entra ID** and select it.
+1. Connect to [https://entra.microsoft.com](https://entra.microsoft.com) using ODL user 
+   Credential which is Environment tab. 
 
-    ![](./media/ms-entra-id-1.png)
-
-2. On the Microsoft Entra ID page, from the left-hand navigation page, under **Manage**, select **Identity Governance**.
-
-    ![](./media/lab23-1.png)
+2. Open select **Identity Governance** in the lefthand navigation menu.
+   
+3. In the menu, under **Entitlement management**.
+   ![image](https://github.com/user-attachments/assets/e9b1a337-8c1d-4d58-ad5f-8ca2c9dadb04)
 
 3. To create a new term,
     - In the left navigation menu of the **Identity Governance** page, under **Terms of use**, select **Terms of use (1)**.
     - On the Terms of use page, on the top menu, select **+ New terms (2)**
 
-      ![](./media/lab23-2.png)
+    ![image](https://github.com/user-attachments/assets/5e1a23d1-4c88-40ed-896e-9b2db8eb78fc)
 
 4. Within the **New terms of use** page, configure the following:
     
@@ -252,17 +252,16 @@ Users can review and see the terms of use that they have accepted by using the f
 
 You can edit some details of terms of use, but you can't modify an existing document. The following procedure describes how to edit the details.
 
-1. In Azure Portal, in **Search resources, services and docs** type **Microsoft Entra ID** and select it.
+1. Connect to [https://entra.microsoft.com](https://entra.microsoft.com) using ODL user Credential which is Environment tab. 
 
-    ![](./media/ms-entra-id-1.png)
+2. Open select **Identity Governance** in the lefthand navigation menu.
+   
+3. In the menu, under **Entitlement management**.
+   ![image](https://github.com/user-attachments/assets/e9b1a337-8c1d-4d58-ad5f-8ca2c9dadb04)
 
-2. On the Microsoft Entra ID page, from the left-hand navigation page, under **Manage**, select **Identity Governance**.
+4. In the left navigation menu, under **Terms of use**, select **Terms of use**.
 
-    ![](./media/lab23-1.png)
-
-3. In the left navigation menu, under **Terms of use**, select **Terms of use**.
-
-4. To edit the terms of use details:
+5. To edit the terms of use details:
     - Select **Testing terms of use (1)**
     - On the top menu, select **Edit terms (2)**.
 
