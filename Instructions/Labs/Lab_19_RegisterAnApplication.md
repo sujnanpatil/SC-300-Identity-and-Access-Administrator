@@ -31,7 +31,7 @@ Registering your application establishes a trust relationship between your app a
 
 1. On the **register an application** blade, register an app named **Demo app (1)** using the default values. Under **Redirect URI**, select **Web (2)**, and rest you do not need to enter the redirect URI, select **Register (3)**.
 
-    ![Screen image displaying the Register an application blade with the name and default settings highlighted](./media/demoapp.png)
+    ![Screen image displaying the Register an application blade with the name and default settings highlighted](./media/sc-300-lab19-1.png)
 
 1. When complete, you will be directed to the **Demo app** blade.
 
@@ -141,14 +141,14 @@ As shown in the image, a scope's full string is the concatenation of your web AP
 
   > **Note**: Next, you will configure a client app's registration with access to your web API and the scopes you defined by following the steps above.
     
-Once a client app registration is granted permission to access your web API, the client can be issued an OAuth 2.0 access token by the Microsoft identity platform. When the client calls the web API, it presents an access token whose scope (scp) claim is set to the permissions you've specified in the client's app registration. You can expose additional scopes later as necessary. Consider that your web API can expose multiple scopes associated with several operations. Your resource can control access to the web API at runtime by evaluating the scope (scp) claim(s) in the OAuth 2.0 access token it receives.
+- Once a client app registration is granted permission to access your web API, the client can be issued an OAuth 2.0 access token by the Microsoft identity platform. When the client calls the web API, it presents an access token whose scope (scp) claim is set to the permissions you've specified in the client's app registration. You can expose additional scopes later as necessary. Consider that your web API can expose multiple scopes associated with several operations. Your resource can control access to the web API at runtime by evaluating the scope (scp) claim(s) in the OAuth 2.0 access token it receives.
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
- <validation step="6eec643a-ac27-4d9b-b23d-2b843753d8d6" />
+     <validation step="6eec643a-ac27-4d9b-b23d-2b843753d8d6" />
 
 ### Exercise 2 - Manage app registration with a custom role
 
