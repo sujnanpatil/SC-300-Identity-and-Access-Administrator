@@ -30,7 +30,7 @@ After completing this lab, you will be able to:
 
 5. In the Identity protection page, in the left navigation under **Protect**, select **Multifactor authentication registration policy**.
 
-    ![Screen image displaying the MFA registration policy page with browsing path highlighted](./media/policy24.png)
+    ![Screen image displaying the MFA registration policy page with browsing path highlighted](./media/policy25.png)
 
 6. Under **Assignments**
 
@@ -48,19 +48,19 @@ After completing this lab, you will be able to:
 
 Now let us enable MFA registration for a single user.
 
-1. In the Azure portal, navigate to **Microsoft Entra ID Identity Protection** in the search bar.
+1. In the Microsoft Entra admin center, navigate to Microsoft Entra Identity Protection in the search bar.
 
-1. Under **Protect** in the menu, select **Multifactor authentication registration policy**.
+2. Under **Protect** in the menu, select **Multifactor authentication registration policy**.
 
-1. Under **Assignments**, select **All users** under Users, and in the Include tab, select **Select individuals and groups**
+3. Under **Assignments**, select **All users** under Users, and in the Include tab, select **Select individuals and groups**
 
-1. Now, select the user named **Chris Green** and click on **Select**.
+4. Now, select the user named **Chris Green** and click on **Select**.
 
-1. Ensure that  **Policy enforcement** is toggled to **Enabled** 
+5. Ensure that  **Policy enforcement** is toggled to **Enabled** 
 
-1. Select **Save**.
+6. Select **Save**.
 
-1. This will require the user to complete the MFA registration the next time they attempt to login.
+This will require the user to complete the MFA registration the next time they attempt to login.
 
 1. From a private browser, navigate to `https://login.microsoftonline.com`. Enter a user name and password from the tenant.  Note the additional security information requirements that the user is asked to enter.
 
