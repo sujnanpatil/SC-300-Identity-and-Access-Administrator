@@ -75,9 +75,10 @@ Use Azure Key Vault to securely manage and rotate secrets, keys, and certificate
 
 1. Select **+ Create a resource**.
 
-    ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/lab16-1.png)
+    ![](./media/lab16-1.png)
 
 1. In **Search services and marketplace**, type and search for **Key Vault**.
+
     ![](./media/lab16-4.png)
 
 1. Select **Create > Key vault**.
