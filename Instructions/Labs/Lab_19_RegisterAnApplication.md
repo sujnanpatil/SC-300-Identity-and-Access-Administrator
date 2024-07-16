@@ -160,10 +160,6 @@ You need to create a new custom role for app management. This new role should be
 
 1. On the Microsoft Entra ID blade, from the left-hand navigation pane, under **Manage**, select **Roles and administrators**.
 
-1. Select the statement which says **To create custom roles, your organization needs Microsoft Entra ID Premium P1 or P2. Start a free trial.**, and under **MICROSOFT ENTRA ID P2**, select **Free trial**, and select **Activate**.
-
-    >**Note:** Wait for some time, to activate the license. Keep refreshing the page, until **+ New custom role** button is enabled.
-
 1. On the Roles and administrators blade, on the menu, select **+ New custom role**.
 
     ![Screen image displaying the Roles and administrators blade with the New custom role menu option highlighted](./media/newcustomrole.png)
