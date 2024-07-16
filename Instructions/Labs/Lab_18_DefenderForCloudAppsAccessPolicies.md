@@ -34,19 +34,27 @@ After completing this lab, you will be able to complete the following exercises:
    | Username | pradeep.gupta@`your domain name.com`|
    | Password| Enter the password for Pradeep Gupta|
 
-4. To find the username for **Pradeep Gupta**, login to the Azure portal using the credentials given in the **Environment Details** page navigate to the Users section of the Microsoft Entra ID, and copy the user name.
+4. To find the username for **Pradeep Gupta**, login to the Azure portal using the credentials given in the **Environment Details** page
 
-5. From the Microsoft Entra ID **Users** section, click on **Pradeep Gupta** user, and from the top navigation pane click on **Reset Password** and copy the temporary password and login  and reset the password to **Pa55w.rd@123**
+5. In **Search resources, services and docs (1)** search and select for **Microsoft Entra ID (2)**.
+
+   ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/MicrosoftentraID.png)
+
+6. Navigate to the **Users** section of the Microsoft Entra ID, and copy the mail id of Pradeep Gupta.
+
+   ![image](./media/sc-300-lab18-2.png)
+
+7. From the Microsoft Entra ID **Users** section, click on **Pradeep Gupta** user, and from the top navigation pane click on **Reset Password** and copy the temporary password and login  and reset the password to **Pa55w.rd@123**
 
     ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/pradeep.png)
 
    >**Note:** Copy the username and password of Pradeep in a notepad file because you will be needing it for further tasks.
     
-7. Confirm that Microsoft Forms opens and that you do not get any warning messages.
+8. Confirm that Microsoft Forms opens and that you do not get any warning messages.
 
    >**Note:** You will not have access to Microsft Forms.
 
-8. Close the InPrivate browsing window.
+9. Close the InPrivate browsing window.
 
 ### Task 2 - Configure Microsoft Entra ID to work with Defender for Cloud Apps
 
@@ -62,8 +70,7 @@ After completing this lab, you will be able to complete the following exercises:
 
 5. Enter a policy name, **Monitor Pradeep using Forms**.
 
-6. Under **Users**, select **0 users and groups selected**, under **Include**, select **Select users and groups**, and select **Users and groups**.
-Choose the **Pradeep Gupta** account for the lab tenant and select **Select**.
+6. Under **Users**, select **0 users and groups selected**, under **Include**, select **Select users and groups**, and select **Users and groups**. Choose **Pradeep Gupta** account for the lab tenant and select **Select**.
 
 8. Under Target resources, select **No target resources selected**, under **Include**, select **Select apps**,under **Select** choose **None**, and then choose **Microsoft Forms**, and select **Select**. 
 
@@ -86,7 +93,7 @@ Choose the **Pradeep Gupta** account for the lab tenant and select **Select**.
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
-     <validation step="63811d93-2f19-414a-8080-7af5209c23db" />
+       <validation step="63811d93-2f19-414a-8080-7af5209c23db" />
 
 ### Task 3 - Log into Forms and validate that conditional access is monitoring
 
@@ -109,6 +116,8 @@ Choose the **Pradeep Gupta** account for the lab tenant and select **Select**.
 
 4. Close the InPrivate browsing window.
 
+   >**Note:** If the above message does not appear as expected, verify if the conditional access policy has been created. If it has, refresh the page and wait for a while for the message to appear.
+
 ## Exercise 2 - Setup alerts in Microsoft Defender for Cloud Apps
 
 Registering your application establishes a trust relationship between your app and the Microsoft identity platform. The trust is unidirectional: Your app trusts the Microsoft identity platform—not the other way around.
@@ -119,15 +128,13 @@ Registering your application establishes a trust relationship between your app a
 
    >**Note:** If you get  **Your new endpoint protection home** page close it.
 
-1. From the left-hand navigation pane, scroll to the bottom and select **More resources**.
+1. In the **Microsoft Defender** portal menu, from the left-hand navigation pane, under **Cloud apps** select **Policies** drop-down, and select **Policy management (1)**. Click on the **Enable Office 365 Cloud App Security (2)** to allow your subscription to use Office 365 Cloud App Security.
 
-1. In the **More resources** window, locate and select **Open** under **Microsoft 365 Defender**.  This will take you to the **Microsoft 365 Defender** portal.
-
-1. In the **Microsoft 365 Defender** portal menu, from the left-hand navigation pane, under **Cloud apps** select **Policies** drop-down, and select **Policy management**.
-
-1. Click the **Enable Office 365 Cloud App Security** to allow your subscription to use Office 365 Cloud App Security.
+   ![image](./media/sc-300-lab18-1.png)
 
 1. Select **+ Create policy**. Select **Access policy**.
+
+   >**Note:** If you encounter a situation where no conditional access policy appears to be active even though one has been created, please try refreshing the page or logging out and back in.
 
 1. Enter a name for the policy, **Monitor Microsoft Forms access**.
 
@@ -170,7 +177,7 @@ Registering your application establishes a trust relationship between your app a
 
 ### Task 3 - Review the Activity in Defender for Cloud Apps
 
-1. Return to the browswer running Microsoft 365 Defender.
+1. Return to the browswer running Microsoft Defender.
 
 2. Refresh the browser to ensure the most recent data is downloaded.
 
@@ -181,6 +188,8 @@ Registering your application establishes a trust relationship between your app a
 5. Notice the sign-on records for Pradeep.
 
    ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/msforms2.png)
+
+   >**Note:** Please logout and login for the logs to appear.
 
 ### Review
 

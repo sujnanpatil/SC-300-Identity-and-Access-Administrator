@@ -30,7 +30,7 @@ In this lab, you will complete the following tasks:
     - In **Browse by category** pane, search for and select **Cloud storage (2)**.
     - In the list of apps, note the **Risk scores (3)** next to the app name.  
 
-    ![](./media/defender-1.png)
+    ![](./media/sc-300-lab17-2.png)
 
 1. Open another browser tab and navigate to **www.dropbox.com**.
 
@@ -40,7 +40,7 @@ In this lab, you will complete the following tasks:
 
 1. Return to the **Discovered apps** tile and select the **Tag as unsanctioned** for Dropbox.
 
-    ![](./media/defender-2.png)
+    ![](./media/sc-300-lab17-1.png)
 
     >**Note:** This is located next to the circled check-mark.
 

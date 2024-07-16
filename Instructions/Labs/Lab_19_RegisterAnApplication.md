@@ -19,9 +19,11 @@ In this lab, you will complete the following tasks:
 
 Registering your application establishes a trust relationship between your app and the Microsoft identity platform. The trust is unidirectional: Your app trusts the Microsoft identity platform—not the other way around.
 
-1. Select the **Show portal menu** hamburger icon and then select **Microsoft Entra ID**.
+1. Navigate to `portal.azure.com`.
+   
+1. In **Search resources, services and docs (1)** search and select for **Microsoft Entra ID (2)**.
 
-    ![Azure portal menu with Azure Active Directory selected](./media/msentrid.png)
+   ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/MicrosoftentraID.png)
 
 1. On the **Microsoft Entra ID** blade, under **Manage**, select **App registrations.**
 
@@ -29,16 +31,9 @@ Registering your application establishes a trust relationship between your app a
 
 1. On the **register an application** blade, register an app named **Demo app (1)** using the default values. Under **Redirect URI**, select **Web (2)**, and rest you do not need to enter the redirect URI, select **Register (3)**.
 
-    ![Screen image displaying the Register an application blade with the name and default settings highlighted](./media/demoapp.png)
+    ![Screen image displaying the Register an application blade with the name and default settings highlighted](./media/sc-300-lab19-1.png)
 
 1. When complete, you will be directed to the **Demo app** blade.
-
-     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
-
-     <validation step="6eec643a-ac27-4d9b-b23d-2b843753d8d6" />
 
 #### Task 2 - Configure platform settings
 
@@ -58,7 +53,7 @@ To configure application settings based on the platform or device you're targeti
 
     ![Screenshot of the Platform configuration pane in the Azure portal](./media/configure-platforms.png)
 
-5. Select **Configure** to complete the platform configuration.
+6. Select **Configure** to complete the platform configuration.
 
 #### Task 3 - Add credentials, certificate and client secret
 
@@ -87,7 +82,7 @@ You can add both certificates and client secrets (a string) as credentials to yo
 With your web API registered, you're ready to add the scopes that your API's code can use to provide granular permission to consumers of your API.
 
 
-#### Task 5 - Add a scope
+#### Task 4 - Add a scope
 
 The code in a client application requests permission to perform operations defined by your web API by passing an access token along with its requests to the protected resource (the web API). Your web API then performs the requested operation only if the access token it receives contains the scopes (also known as application permissions) required for the operation.
 
@@ -118,7 +113,7 @@ First, follow these steps to create an example scope named Employees.Read.All:
 
 1. Set the **State** to **Enabled**, and then select **Add scope**.
 
-#### Task 6 - Add a scope requiring admin consent
+#### Task 5 - Add a scope requiring admin consent
 
 Next, add another example scope named Employees.Write.All that only admins can consent to. Scopes that require admin consent are typically used for providing access to higher-privileged operations, often by client applications that run as backend services or daemons that don't sign in a user interactively.
 
@@ -141,13 +136,19 @@ Next, add another example scope named Employees.Write.All that only admins can
 
 As shown in the image, a scope's full string is the concatenation of your web API's **Application ID URI** and the scope's **Scope name**.
 
-        **Note**: For example, if your web API's application ID URI is `https://contoso.com/api` and the scope name is Employees.Read.All, the full scope is: `https://contoso.com/api/Employees.Read.All`
+  > **Note**: For example, if your web API's application ID URI is `https://contoso.com/api` and the scope name is Employees.Read.All, the full scope is: `https://contoso.com/api/Employees.Read.All`
 
 
-        **Note**: Next, you will configure a client app's registration with access to your web API and the scopes you defined by following the steps above.
+  > **Note**: Next, you will configure a client app's registration with access to your web API and the scopes you defined by following the steps above.
     
-Once a client app registration is granted permission to access your web API, the client can be issued an OAuth 2.0 access token by the Microsoft identity platform. When the client calls the web API, it presents an access token whose scope (scp) claim is set to the permissions you've specified in the client's app registration. You can expose additional scopes later as necessary. Consider that your web API can expose multiple scopes associated with several operations. Your resource can control access to the web API at runtime by evaluating the scope (scp) claim(s) in the OAuth 2.0 access token it receives.
+- Once a client app registration is granted permission to access your web API, the client can be issued an OAuth 2.0 access token by the Microsoft identity platform. When the client calls the web API, it presents an access token whose scope (scp) claim is set to the permissions you've specified in the client's app registration. You can expose additional scopes later as necessary. Consider that your web API can expose multiple scopes associated with several operations. Your resource can control access to the web API at runtime by evaluating the scope (scp) claim(s) in the OAuth 2.0 access token it receives.
 
+     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+
+     <validation step="6eec643a-ac27-4d9b-b23d-2b843753d8d6" />
 
 ### Exercise 2 - Manage app registration with a custom role
 
@@ -159,13 +160,9 @@ You need to create a new custom role for app management. This new role should be
 
 1. On the Microsoft Entra ID blade, from the left-hand navigation pane, under **Manage**, select **Roles and administrators**.
 
-1. Select the statement which says **To create custom roles, your organization needs Microsoft Entra ID Premium P1 or P2. Start a free trial.**, and under **MICROSOFT ENTRA ID P2**, select **Free trial**, and select **Activate**.
-
-    >**Note:** Wait for some time, to activate the license. Keep refreshing the page, until **+ New custom role** button is enabled.
-
 1. On the Roles and administrators blade, on the menu, select **+ New custom role**.
 
-    ![Screen image displaying the Roles and administrators blade with the New custom role menu option highlighted](./media/newcustomrole.png)
+    ![Screen image displaying the Roles and administrators blade with the New custom role menu option highlighted](./media/sc-300-lab19-2.png)
 
 1. In the New custom role blade, on the Basics tab, in the name box, enter **My custom app role**.
 

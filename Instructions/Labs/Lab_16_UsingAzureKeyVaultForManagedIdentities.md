@@ -30,15 +30,38 @@ Use Azure Key Vault to securely manage and rotate secrets, keys, and certificate
 
 1. Type **Windows 11** in Search the Marketplace search bar.
 
-1. Select **Windows 11** and from the plan dropdown choose **Windows 11 Enterprise, version 21H2**. Then choose **Create**.
+1. Select **Windows 11** and click on the dropdown next to **Create**.
 
+   ![](./media/sc-300-lab16-7.png)
+
+1. From the dropdown, choose **Windows 11 Enterprise, version 21H2**. Then choose **Create**.
+
+   ![](./media/sc-300-lab16-8.png)
+
+1. In the Create a Virtual Machine page, modify the following by keeping the rest as default:
+
+   - Resource Group: Select the existing resource group from the dropdown (1)
+   - Virtual Machine Name: **VM-<inject key="DeploymentID" enableCopy="false"/> (2)**
+   - Size: **Standard B2s (3)**
+   - Username: **azureuser (4)**
+   - Password: **Password@..!!(5)**
+   - Confirm Password: **Password@..!! (6)**
+   - Ensure the checkbox towards the end is checked whcih states that you have an eliglible Windows 10/11 License.
+
+
+     ![](./media/sc-300-lab16-1.png)
+
+     ![](./media/sc-300-lab16-2.png)
+
+     ![](./media/sc-300-lab16-3.png)
+   
 1. You will have to create an administrator username and password for the VM on the basics tab.
 
-1. On the **Management** tab, check the box to **Enable system assigned managed identity**.
+1. On the **Management (1)** tab, check the box to **Enable system assigned managed identity (2)** and click on **Review + Create**.
 
-1. Go through the rest of the experience of creating a virtual machine. 
+   ![](./media/sc-300-lab16-4.png)
 
-1. Select Create
+1. Select **Create**.
 
      >**Note**: Please wait till the deployment is successful.
    
@@ -71,6 +94,8 @@ Use Azure Key Vault to securely manage and rotate secrets, keys, and certificate
     | Region | **<inject key="Region" enableCopy="false"/>** |
     | Access Configuration | select the **Vault Access Policy** radio button. |
 
+      ![](./media/sc-300-lab16-5.png)
+   
 1. Select **Review + create**.
 
 1. Select **Create**.
@@ -115,7 +140,7 @@ Use Azure Key Vault to securely manage and rotate secrets, keys, and certificate
 
      <validation step="b3569c98-64c4-4f7e-a19b-463cfc0b4d36" />
 
-#### Task 4 - Grant access to Key Vault
+### Task 4 - Grant access to Key Vault
 
 1. On the **keyvault-<inject key="DeploymentID" enableCopy="false"/> | Secrets**, from the left-hand navigation pane, select **Access policies** and click on **+ Create**.
    ![](./media/lab16-8.png)
@@ -131,19 +156,22 @@ Use Azure Key Vault to securely manage and rotate secrets, keys, and certificate
 
 1. On the **Review + Create** page, select **Create**.
 
-#### Task 5 - Access data with Key Vault secret with PowerShell
+### Task 5 - Access data with Key Vault secret with PowerShell
 
 1. In **Search, resources, services and docs** search and select **Virtual machines**.
 
 1. Select the virtual machine that you created in Task-1, that is **VM-<inject key="DeploymentID" enableCopy="false"/>**.
 
-1. Select **Connect**, under **Most common**, choose **Select**, and select **Download RDP file**. Open the downloaded file, select **Connect**, and enter the VM credentials, that is username which is **azureuser**, and password which is **Password@..!!**, select **OK**. Select **Yes** on the certificate pop-up.
+1. Select **Connect**, under the **Connect** tab, choose **Select**, and select **Download RDP file**.
+   
     ![](./media/lab16-11.png)
 
+1. Open the downloaded file, select **Connect**, and enter the VM credentials, that is username which is **azureuser**, and password which is **Password@..!!**, select **OK**. Select **Yes** on the certificate pop-up.
+   
 1. In the virtual machine, from the **start meanu** search and select **Windows PowerShell**.  
 
-    ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/powershell.png)
-
+   ![](./media/sc-300-lab16-6.png)
+   
 1. In PowerShell, run the following command to invoke the web request on the tenant to get the token for the local host in the specific port for the VM.  
 
     ```
@@ -156,7 +184,8 @@ Use Azure Key Vault to securely manage and rotate secrets, keys, and certificate
     $KeyVaultToken = $Response.access_token
     ```
 
-1. Use PowerShell’s Invoke-WebRequest command to retrieve the secret you created earlier in the Key Vault, passing the access token in the Authorization header.  You’ll need the URL of your Key Vault, which is in the Essentials section of the Overview page of the Key Vault.  Reminder - URI for Key Vault is on the Overview tab.
+1. Use PowerShell’s Invoke-WebRequest command to retrieve the secret you created earlier in the Key Vault, passing the access token in the Authorization header.
+   
    >**Note:** Replace **your-key-vault-URI** to the Key Vault URI that you copied in Task-2, and replace **secret-name** with the secret name that you copied in Task-3.
 
     ```
