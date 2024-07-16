@@ -26,9 +26,9 @@ Follow these steps to open the settings for an Azure AD role.
 
 2. In the Azure portal, search for and  select **Microsoft Entra ID Privileged Identity Management.**
 
-3. In the Privileged Identity Management page, in the left navigation, select **Microsoft Entra ID roles.**
+3. In the Privileged Identity Management page, in the left navigation, select **Microsoft Entra ID roles** under **Manage** option.
 
-4. On the Quick start page, in the left navigation, select **Settings (1)**
+4. On the Quick start page, in the left navigation, select **Settings (1)** under **Manage** option.
   
 5. Review the list of roles and then, in the **Search by role name (2)**, enter **compliance**.
    
@@ -82,13 +82,13 @@ Follow these steps to make a user eligible for an Azure AD admin role.
 
 7. You can use the **Search role by name** filter to help located a role.
 
-8. Under **Select member(s),** select **No members selected**.
+8. Under **Select member(s),** select **No member selected**.
 
 9. In the Select a member pane, select **Miriam Graham** and then select **Select**.
 
    ![Screen image displaying the select a member pane with a selected member highlighted](./media/miriam12345.png)
 
-10. In the Add assignments page, select **Next**.
+10. In the Add assignments page, select **Next >**.
 
 11. On the **Settings** tab, under **Assignment type**, review the available options. For this task, use the default setting.
 
@@ -97,11 +97,12 @@ Follow these steps to make a user eligible for an Azure AD admin role.
 
 12. Review the remaining settings and then select **Assign**.
 
-     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+   <validation step="463fb3a1-c805-4bd6-96ca-3e48f02ec7b4" />
 
 #### Task 2 - Log in with Miriam
 
@@ -112,14 +113,14 @@ Follow these steps to make a user eligible for an Azure AD admin role.
 
    | Field | Value |
    | :--- | :--- |
-   | Username | **MiriamG@** `<<your domain.onmicrosoft.com>>` |
+   | Username | **miriam.graham@** `<<your domain.onmicrosoft.com>>` |
    | Password |  Enter the password for Miriam Graham |
 
    >**Note:** To find the username for Miriam Graham, login to the Azure portal and navigate to the Users section of the Microsoft Entra ID, and copy the user name.
 
    >**Note:** From the Microsoft Entra ID **Users** section, click on **Miriam Graham** user and from the top navigation pane, click on **Reset Password** and subsequently click on **Reset Password**  again and copy the temporary password and login to office.com and reset the password to **Pa55w.rd@123**
 
-5. Close the **Welcome to Azure dialog**.
+5. Close the **Welcome to Microsoft Azure dialog**.
 6. From the **Search resource, services, and docs** bar look for Microsoft Entra ID, and open the page.
 7. On the **Overview** page, look for the **My feed**.
 8. Select **View Profile** under Miriam Graham's name; this with open Miriam's profile page.
@@ -137,7 +138,7 @@ When you need to assume an Azure AD role, you can request activation by opening 
 
 2. Open the **Microsoft Entra ID Privileged Identity Management** page.
 
-3. On the Privileged Identity Management page, in the left navigation menu, select **My roles (1)**
+3. On the Privileged Identity Management page, in the left navigation menu, select **My roles (1)** under **Tasks**.
 
 4. In the My roles page, review the list of **Eligible assignments (2)**.
 
@@ -151,7 +152,7 @@ When you need to assume an Azure AD role, you can request activation by opening 
 
     >**Verification** - Based on our current lab environment configuration, you will be required configure MFA and log in successfully.
     
-    >**Note:** In the MFA window select **I want to set up a different method** and choose **Phone** and complete the additional verification process.
+    >**Note:** In the MFA window select **Next** in **Microsoft Authenticator** window. If you don't have Microsoft Authenticator app, download it first, then proceed with this step.
 
 8. After you have completed the additional security verification, back in the Azure portal, in the **Activate – Compliance Administrator** pane, in the **Reason** box, enter the **This is my justification for activating this role**.
 
@@ -166,7 +167,7 @@ When you need to assume an Azure AD role, you can request activation by opening 
 For certain roles, the scope of the granted permissions can be restricted to a single admin unit, service principal, or application. This procedure is an example if assigning a role that has the scope of an administrative unit.
 
 1. Now, go to the portal where you have logged in as the ODL user in the normal Microsoft Edge browser.
-2. Browse to the Privileged Identity Management page, and in the left navigation menu, select Azure **Microsoft Entra ID roles.**
+2. Browse to the Privileged Identity Management page, and in the left navigation menu, select Azure **Microsoft Entra roles** under **Manage** option.
 3. Under Manage select **Roles**.
 4. In the Roles page, on the top menu, select **+ Add assignments.**
 
