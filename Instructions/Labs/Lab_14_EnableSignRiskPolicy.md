@@ -49,7 +49,7 @@ After completing this lab, you will be able to:
 
 5. In the Identity protection page, in the left navigation, select **User risk policy**.
 
-    ![Screen image displaying the User risk policy page and highlighted browsing path](./media/protection.png)
+    ![Screen image displaying the User risk policy page and highlighted browsing path](./media/protection1.png)
 
 6. Under **Assignments**, select **All users** and review the available options.
 
