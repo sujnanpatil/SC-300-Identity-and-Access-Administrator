@@ -91,7 +91,7 @@ After completing this lab, you will be able to complete the following exercises:
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
-     <validation step="63811d93-2f19-414a-8080-7af5209c23db" />
+       <validation step="63811d93-2f19-414a-8080-7af5209c23db" />
 
 ### Task 3 - Log into Forms and validate that conditional access is monitoring
 
