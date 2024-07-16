@@ -40,7 +40,6 @@ Building out resources in Entitlement Management involves defining and structuri
 
 1. In the New catalog pane, specify the following details and click on **Create (4)**.
 
-
       | **Option**                          | **Value**                               |
       | ----------------------------------- | --------------------------------------- |
       | **Name**                            | **Marketing**.                     |
