@@ -43,13 +43,13 @@ After completing this lab, you will be able to:
 
 2. Open the portal menu and then search for and select **Microsoft Entra ID**.
 
-3. On the **Microsoft Entra ID** page, under **Manage**, select **Security**.
+3. On menu under **Identity**, Select **Protection**.
 
-4. On the Security page, in the left navigation, under **Protect** select **Identity protection**.
+4. In the left navigation, under **Protection** select **Identity protection**.
 
 5. In the Identity protection page, in the left navigation, select **User risk policy**.
 
-    ![Screen image displaying the User risk policy page and highlighted browsing path](./media/protection.png)
+    ![Screen image displaying the User risk policy page and highlighted browsing path](./media/protection1.png)
 
 6. Under **Assignments**, select **All users** and review the available options.
 
