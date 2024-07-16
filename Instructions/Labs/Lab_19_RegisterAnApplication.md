@@ -162,7 +162,7 @@ You need to create a new custom role for app management. This new role should be
 
 1. On the Roles and administrators blade, on the menu, select **+ New custom role**.
 
-    ![Screen image displaying the Roles and administrators blade with the New custom role menu option highlighted](./media/newcustomrole.png)
+    ![Screen image displaying the Roles and administrators blade with the New custom role menu option highlighted](./media/sc-300-lab19-2.png)
 
 1. In the New custom role blade, on the Basics tab, in the name box, enter **My custom app role**.
 
