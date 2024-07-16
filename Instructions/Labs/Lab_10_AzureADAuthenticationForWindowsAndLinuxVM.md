@@ -208,26 +208,6 @@ In this exercise, you will learn how to access Windows Virtual Machines in Azure
 
 1. Windows Server should confirm the login and open to the normal Server Manager Dashboard.
 
-### Task 6: Optional testing to explore the Microsoft Entra ID login
-
-1. To check to see that <inject key="LabVM Admin Username" enableCopy="true" /> was the only user added to the Administrators group,
-   - From the Server Manager Dashboard, select the **Tools (1)** menu from the upper right corner.
-   - Launch the **Computer Management (2)** tool.
-
-     ![Microsoft Entra ID Login](./media/server-manager.png)
-
-1. We can find the list of users who have been granted access to Administrator group can be found as follows :
-   - Open **Local Users and Groups (1)**.
-   - Navigate to **Groups (2)** and the select **Administrators (3)**.
-  
-     ![Microsoft Entra ID Login](./media/server-manager-1.png)
-
-1. You should see **<inject key="LabVM Admin Username" enableCopy="false" />** in the list.
-
-     ![Microsoft Entra ID Login](./media/server-manager-2.png)
-
-     >**Note:** It's important to highlight that other Microsoft Entra ID members are restricted from logging in using this RDP file.
-
 ## Exercise 2: Login to Linux Virtual Machines in Azure with Microsoft Entra ID [READ-ONLY]
 
 The tasks outlined here are intended solely for informational purposes. They are meant to provide users with a better understanding and knowledge of the topic.
