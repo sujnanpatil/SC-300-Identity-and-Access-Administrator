@@ -75,15 +75,15 @@ Use Azure Key Vault to securely manage and rotate secrets, keys, and certificate
 
 1. Select **+ Create a resource**.
 
-   ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/lab16-1.png)
+    ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/lab16-1.png)
 
 1. In **Search services and marketplace**, type and search for **Key Vault**.
 
-   ![](./media/lab16-4.png)
+    ![](./media/lab16-4.png)
 
 1. Select **Create > Key vault**.
 
-   ![](./media/lab16-5.png)
+    ![](./media/lab16-5.png)
 
 1. Fill out all required information as shown below. Select **Next**.
 
@@ -103,6 +103,7 @@ Use Azure Key Vault to securely manage and rotate secrets, keys, and certificate
 1. Once deployement is completed click on **Go to resources**
 
 1. On **keyvault-<inject key="DeploymentID" enableCopy="false"/>** page copy the url and paste that URL in notepad you need this values in further tasks.
+
    ![](./media/lab16-6.png)
          
      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
