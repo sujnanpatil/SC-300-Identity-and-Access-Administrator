@@ -24,13 +24,13 @@ After completing this lab, you will be able to:
 
 2. Open the portal menu and then search for and select **Microsoft Entra ID**.
 
-3. On the  Microsoft Entra ID page, under **Manage**, select **Security**.
+3. On the  Microsoft Entra ID page, under **Identity**, select **Protection**.
 
-4. On the Security page, in the left navigation, select **Identity protection**.
+4. In the left navigation, select **Identity protection**.
 
 5. In the Identity protection page, in the left navigation under **Protect**, select **Multifactor authentication registration policy**.
 
-    ![Screen image displaying the MFA registration policy page with browsing path highlighted](./media/policy23.png)
+    ![Screen image displaying the MFA registration policy page with browsing path highlighted](./media/policy24.png)
 
 6. Under **Assignments**
 
