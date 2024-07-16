@@ -80,13 +80,15 @@ After completing this lab, you will be able to complete the following exercises:
 
 11. Under **Enable policy**, select **On**, you will receive an alert message to disable security defaults. Click on the provided hyperlink.
     
-    ![](./media/conditional-policy.png)
+    ![](./media/sc-300-lab18-4.png)
     
-12. On the Security Defaults setup page, select the option **Disabled**. For the **Reason for disabling**, choose _My organization is planning to use Conditional Access_
+12. On the Security Defaults setup page, select the option **Disabled (1)**. For the **Reason for disabling**, choose** _My organization is planning to use Conditional Access_ (2)** and click on **Save (3)**.
 
-    ![](./media/disabled.png)
+    ![](./media/sc-300-lab18-3.png)
 
-13. Select **Create**.
+13. Click on **Disable** when prompted.
+    
+14. Select **Create**.
 
      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
      > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
