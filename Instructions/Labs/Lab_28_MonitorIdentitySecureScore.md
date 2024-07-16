@@ -1,4 +1,4 @@
-# Lab 28 - Monitor and managed security posture with Identity Secure Score
+# Lab 28 - Monitor and manage security posture with Identity Secure Score
 
 ## Lab scenario
 
