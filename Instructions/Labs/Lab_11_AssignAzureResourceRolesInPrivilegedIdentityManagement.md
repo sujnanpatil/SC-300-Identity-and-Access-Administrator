@@ -83,7 +83,8 @@ Follow these steps to update or remove an existing role assignment.
 
 6. On the **Eligible assignments** tab, in the Action column, review the available options, and select it.
 
-7. Select **Remove**.
+7. Select **Remove**
+   
    ![](./media/lab11-10.png)
 
 8. In the Remove dialog box, review the information and then select **Yes**.
