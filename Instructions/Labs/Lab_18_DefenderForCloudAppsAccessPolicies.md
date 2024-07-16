@@ -189,7 +189,7 @@ Registering your application establishes a trust relationship between your app a
 
    ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/msforms2.png)
 
-   >**Note:** Please logout and loin for the logs to appear.
+   >**Note:** Please logout and login for the logs to appear.
 
 ### Review
 
