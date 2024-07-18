@@ -1,6 +1,6 @@
 # [Read Only]Lab 07: Add Hybrid Identity with Microsoft Entra Connect 
 
-**Note 1:** - This lab is titled Read-Only.
+**Note:** - This lab is titled Read-Only.
 
 ## Lab scenario
 
