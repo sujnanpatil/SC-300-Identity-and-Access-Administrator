@@ -1,8 +1,6 @@
 # [Read Only]Lab 07: Add Hybrid Identity with Microsoft Entra Connect 
 
-# This lab is currently undergoing maintenance and may fail with multiple issue  due to licensing with Microsoft Entra.
-
-**Note 1:** - This lab is titled Read-Only.  It takes at least 1 hour to complete and does require that you are detailed in your lab steps. 
+**Note 1:** - This lab is titled Read-Only.
 
 ## Lab scenario
 
