@@ -1,4 +1,4 @@
-# Lab 07: Add Hybrid Identity with Microsoft Entra Connect (Read Only)
+# [Read Only]Lab 07: Add Hybrid Identity with Microsoft Entra Connect 
 
 # This lab is currently undergoing maintenance and may fail with multiple issue  due to licensing with Microsoft Entra.
 
