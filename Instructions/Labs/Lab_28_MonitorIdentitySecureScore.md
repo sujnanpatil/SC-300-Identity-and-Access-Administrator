@@ -49,7 +49,7 @@ In this lab, you will complete the following tasks:
 
 3. Give your policy a name as **Accesspolicy-<inject key="DeploymentID"></inject>**. We recommend that organizations create a meaningful standard for the names of their policies.
 
-4. Under Assignments, select **0 users and groups selected**. Under Include, select **All users**.
+4. Under **Assignments|Users**, select **0 users and groups selected**. Under Include, select **All users**.
 
 5. Under Exclude, select **Users and groups** and choose any accounts that must maintain the ability to use legacy authentication. Microsoft recommends you exclude at least one account to prevent yourself from being locked out. For now select **Spektra Systems** and **ODL_User <inject key="DeploymentID"></inject>**.
 
