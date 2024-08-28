@@ -261,7 +261,7 @@ You can edit some details of terms of use, but you can't modify an existing docu
 
 1. Connect to [https://entra.microsoft.com](https://entra.microsoft.com).
    
-2.Sign in using Below Credential.
+2. Sign in using Below Credential.
    | Setting | Value |
    | :--- | :--- |
    | Username | **<inject key="AzureAdUserEmail" enableCopy="true" />** |
@@ -280,6 +280,8 @@ You can edit some details of terms of use, but you can't modify an existing docu
     - On the top menu, select **Edit terms (2)**.
 
     ![](./media/lab23-12.png)
+
+    >**Note:** You have to click on open space, not directly on name of the Terms or Use.
 
     >**Note:** In the Edit terms of use pane, you can change the following:
     >- **Name:** This is the internal name of the ToU that is not shared with end users. 
