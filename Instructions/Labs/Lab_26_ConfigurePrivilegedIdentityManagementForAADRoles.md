@@ -5,6 +5,8 @@
 
 A Privileged role administrator can customize Privileged Identity Management (PIM) in their Azure Active Directory (Azure AD) organization, including changing the experience for a user who is activating an eligible role assignment. You must become familiar with configuring PIM.
 
+   >**Note:** There have been on-going changes to requiring MFA in lab environments. When you switch between users to complete this lab, you may be prompted to set up MFA.
+
 ## Lab Objectives
 After completing this lab, you will be able to:
 - Exercise 1 - Configure Microsoft Entra ID role settings
