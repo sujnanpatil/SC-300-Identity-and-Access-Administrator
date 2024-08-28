@@ -24,13 +24,20 @@ In this lab, you will complete the following tasks:
 
 1. Open a new tab, and sign in to the [https://entra.microsoft.com/](https://entra.microsoft.com/).
 
-2. From the left-hand navigation pane, select **Protection > Identity Secure Score** to view the dashboard.
+2. Sign in using below credentials :
 
-3. Select **Identity Secure Score**. This will take you to the Identity Secure Score dashboard.
+   | Setting | Value |
+   | :--- | :--- |
+   | Username | **<inject key="AzureAdUserEmail" enableCopy="true" />** |
+   | Password | **<inject key="AzureAdUserPassword" enableCopy="true" />** |
 
-4. Scroll down to view the **Improvement actions**.
+3. From the left-hand navigation pane, select **Protection > Identity Secure Score** to view the dashboard.
 
-5. In contrast to the improvement actions in Microsoft Defender for Cloud and Microsoft Defender XDR, these improvement actions are specific to identity. This provides a more focused list of potential actions to your security posture management. Any improvement actions initiated from this list will also provide an impact to your overall tenant security posture.
+4. Select **Identity Secure Score**. This will take you to the Identity Secure Score dashboard.
+
+5. Scroll down to view the **Improvement actions**.
+
+6. In contrast to the improvement actions in Microsoft Defender for Cloud and Microsoft Defender XDR, these improvement actions are specific to identity. This provides a more focused list of potential actions to your security posture management. Any improvement actions initiated from this list will also provide an impact to your overall tenant security posture.
 
 #### Task 2 - Execute an improvement action
 
