@@ -123,7 +123,7 @@ Once you have finalized your terms of use document, use the following procedure 
 
 11. When the terms of use is created, you will automatically be redirected to the Conditional access policy page. On the page,
     - **Name:** Enter **Enforce ToU (1)**.
-    - Under **Assignments**, click on **Users (2)**.
+    - Under **Assignments|Users**, select **0 users and groups selected**.
     - Within the **Include** tab, ensure to choose **Select users and groups (3)** radio button.
     - Select the **Users and groups (4)** checkbox.
     - Under **Select**, click on **0 users and groups selected (5)** to add the new user who would be alligned to this conditional access policy.
