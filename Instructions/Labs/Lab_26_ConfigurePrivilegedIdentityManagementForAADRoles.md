@@ -1,4 +1,3 @@
-
 # Lab 26: Configure Privileged Identity Management for Microsoft Entra ID roles
 
 ## Lab scenario
@@ -8,6 +7,7 @@ A Privileged role administrator can customize Privileged Identity Management (PI
    >**Note:** There have been on-going changes to requiring MFA in lab environments. When you switch between users to complete this lab, you may be prompted to set up MFA.
 
 ## Lab Objectives
+
 After completing this lab, you will be able to:
 - Exercise 1 - Configure Microsoft Entra ID role settings
 - Exercise 2 - PIM with Microsoft Entra ID roles
