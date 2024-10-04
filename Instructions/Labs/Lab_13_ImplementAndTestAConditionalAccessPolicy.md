@@ -62,8 +62,6 @@ In this exercise, you will learn to create a conditional access policy in Micros
    
    ![image](https://github.com/user-attachments/assets/315897f5-79b0-458e-9e12-a15f1791ac0b)
 
-
-
 6. On the **Overview** page, click **+ Create new policy**.
 
     ![](./media/lab13-ms-entra-id-4.png)
