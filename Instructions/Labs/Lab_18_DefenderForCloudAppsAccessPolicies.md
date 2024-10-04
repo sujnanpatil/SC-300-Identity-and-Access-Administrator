@@ -110,7 +110,7 @@ After completing this lab, you will be able to complete the following exercises:
     
    >**Note:** Copy the username for Pradeep from the notepad file as mentioned in the previous task.
    
-3. Confirm  that you get a new message as shown below:
+3. Confirm that you get a new message as shown below:
 
    - Access to Microsoft Forms is monitored.
    
