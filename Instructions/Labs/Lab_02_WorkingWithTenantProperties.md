@@ -82,6 +82,8 @@ After completing this lab, you will be able to:
 
 2. Under **Tenant properties**, locate **Country or region** and review the information.
 
+3. In the **Properties** page, under **Tenant properties**, locate **Data Location** and review the information.
+
    ![B2B Collaboration Review permissions box with message](./media/SC-300-marketing.png)
 
    **IMPORTANT** - When the tenant is created, the Country or region are specified at that time. This setting cannot be changed later.
