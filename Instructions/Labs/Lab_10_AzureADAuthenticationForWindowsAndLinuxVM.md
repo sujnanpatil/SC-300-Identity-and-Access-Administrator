@@ -76,7 +76,12 @@ In this exercise, you will learn how to access Windows Virtual Machines in Azure
 
     ![Create vm](./media/create-vm-06.png)
 
-<validation step="6d6f986c-9dc3-4dd6-9383-5d1200cede9b" />
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Hit the Validate button for the corresponding task. You can proceed to the next task if you receive a success message.
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+   <validation step="6d6f986c-9dc3-4dd6-9383-5d1200cede9b" />
 
 ### Task 2: Microsoft Entra ID login for existing Azure Virtual Machines
 
@@ -109,7 +114,12 @@ In this exercise, you will learn how to access Windows Virtual Machines in Azure
 
      ![Create iam](./media/vm-iam-4.png)
 
-<validation step="dbb08182-3d9e-4298-b39d-5ecca31d6672" />
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Hit the Validate button for the corresponding task. You can proceed to the next task if you receive a success message.
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+   <validation step="dbb08182-3d9e-4298-b39d-5ecca31d6672" />
 
 ### Task 3: Update the Server VM to support the Microsoft Entra ID login
 
