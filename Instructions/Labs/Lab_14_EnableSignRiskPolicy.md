@@ -1,4 +1,3 @@
-
 # Lab 14 - Enable sign in and user risk policies
 
 ## Lab scenario
