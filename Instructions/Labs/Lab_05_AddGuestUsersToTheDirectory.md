@@ -136,7 +136,7 @@ A recent partnership has been established with another company. For now, employe
 	    inviteRedirectUrl = "https://myapp.contoso.com"
     }
     ```
-1. Sent the MgInvitation command to invite the External user:
+1. Send the MgInvitation command to invite the External user:
 
    ```
     New-MgInvitation -BodyParameter $params
