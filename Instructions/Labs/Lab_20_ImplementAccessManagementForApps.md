@@ -48,7 +48,12 @@ Configuring an Enterprise App involves setting up and managing the identity and 
 
     ![](./media/enterprise-apps-4.png)
 
-<validation step="68af99af-30de-40e5-aba0-b9bdb16a937e" />
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Hit the Validate button for the corresponding task. You can proceed to the next task if you receive a success message.
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+   <validation step="68af99af-30de-40e5-aba0-b9bdb16a937e" />
 
 ### Task 2: Assign users to an app
 
