@@ -56,7 +56,7 @@ Now let us enable MFA registration for a single user.
 
 4. Now, select the user named **Chris Green** and click on **Select**.
 
-5. Ensure that  **Policy enforcement** is toggled to **Enabled** 
+5. Ensure that  **Policy enforcement** is toggled from **Disabled** to **Enabled** 
 
 6. Select **Save**.
 
