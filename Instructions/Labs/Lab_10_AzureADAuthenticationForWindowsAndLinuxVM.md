@@ -8,12 +8,8 @@ The company has made the decision to implement Azure Active Directory as the aut
 
 After completing this lab, you will be able to complete the following tasks:
 
-- Task 1 - Login to Windows Virtual Machines in Azure with Microsoft Entra ID
-- Task 2 - Microsoft Entra ID login for existing Azure Virtual Machines
-- Task 3 - Update the Server VM to support the Microsoft Entra ID login
-- Task 4 - Modify your RDP file to support the Microsoft Entra ID login
-- Task 5 - Connect to the Windows Server 2022 Datacenter using Microsoft Entra ID login
-- Task 6 - Optional testing to explore the Microsoft Entra ID login
+- Exercise 1 - Login to Windows Virtual Machines in Azure with Microsoft Entra ID
+- Exercise 2 - Login to Linux Virtual Machines in Azure with Microsoft Entra ID [READ-ONLY]
 
 ## Estimated time: 40 minutes
 
