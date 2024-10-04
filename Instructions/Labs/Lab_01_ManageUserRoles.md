@@ -288,7 +288,7 @@ It may happen that an account is deleted and then needs to be recovered. You nee
 
 ## Exercise 6 - Add a  license to a user account
 
-Some user accounts in your organization will not be provided all available products in their assigned license or will need updates or additions to their license assignment. You need to ensure you are able to update a user account's license assignment in Azure AD.
+Some user accounts in your organization will not be provided all available products in their assigned license or will need updates or additions to their license assignment. You need to ensure you are able to update a user account's license assignment in Microsoft Entra ID.
 
 ## Task 1 - Find your unlicensed user in Microsoft Entra ID
 
