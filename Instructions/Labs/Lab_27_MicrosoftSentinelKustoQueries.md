@@ -58,8 +58,6 @@ Microsoft Sentinel is Microsoft's cloud-native SIEM and SOAR solution.  Through 
 1. Select **Refresh** on the **Microsoft Sentinel | Data connectors** tile and the number 1 will show in the **Connected** count.
 
    **Note** - The Azure AD data connector may take a few minutes to show in the active count.
-   
-   **Note** - If the Connected count isn't displayed after a few minutes, try deleting the connector and then adding it again.
 
 #### Task 3 - Run Kusto query on User activity
 
