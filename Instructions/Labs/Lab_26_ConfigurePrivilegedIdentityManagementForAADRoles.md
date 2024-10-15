@@ -18,11 +18,11 @@ After completing this lab, you will be able to:
 
 ## Estimated time: 45 minutes
 
-### Exercise 1 - Configure Microsoft Entra ID role settings
+## Exercise 1 - Configure Microsoft Entra ID role settings
 
 In this exercise, you will learn how to customize role settings by configuring Microsoft Entra ID roles.
 
-#### Task 1 - Open role settings
+### Task 1 - Open role settings
 
 Follow these steps to open the settings for an Azure AD role.
 
@@ -40,7 +40,7 @@ Follow these steps to open the settings for an Azure AD role.
 
 7. Review the role setting details information.
 
-#### Task 2 - Require approval to activate
+### Task 2 - Require approval to activate
 
 If setting multiple approvers, approval completes as soon as one of them approves or denies. You cannot require approval from at least two users. To require approval to activate a role, follow these steps.
 
@@ -58,9 +58,9 @@ If setting multiple approvers, approval completes as soon as one of them approve
 
 5. Once you have configured the role settings, select **Update** to save your changes.
 
-### Exercise 2 - PIM with Microsoft Entra ID roles
+## Exercise 2 - PIM with Microsoft Entra ID roles
 
-#### Task 1 - Assign a role
+### Task 1 - Assign a role
 
 With Microsoft Entra ID, a Global administrator can make permanent Microsoft Entra ID admin role assignments. These role assignments can be created using the Azure portal or using PowerShell commands.
 
@@ -106,7 +106,7 @@ Follow these steps to make a user eligible for an Azure AD admin role.
 
    <validation step="463fb3a1-c805-4bd6-96ca-3e48f02ec7b4" />
 
-#### Task 2 - Log in with Miriam
+### Task 2 - Log in with Miriam
 
 1. Open a new InPrivate browser window.
 2. Connect to the Azure Portal (https://portal.azure.com).
@@ -132,7 +132,7 @@ Follow these steps to make a user eligible for an Azure AD admin role.
 10. From the left navigation pane,under Manage select **Assigned roles** then select **Eligible assignments**.
 11. Notice that the **Compliance Administrator** role is now available to Miriam.
 
-#### Task 3 - Activate your Microsoft Entra ID roles
+### Task 3 - Activate your Microsoft Entra ID roles
 
 When you need to assume an Azure AD role, you can request activation by opening **My roles** in Privileged Identity Management.
 
@@ -164,7 +164,7 @@ When you need to assume an Azure AD role, you can request activation by opening 
 
 9. Select **Activate**.
 
-#### Task 4 - Assign a role with restricted scope
+### Task 4 - Assign a role with restricted scope
 
 For certain roles, the scope of the granted permissions can be restricted to a single admin unit, service principal, or application. This procedure is an example if assigning a role that has the scope of an administrative unit.
 
@@ -181,7 +181,7 @@ For certain roles, the scope of the granted permissions can be restricted to a s
 
 7. As you did when assigning a role without a restricted scope, you would add members and complete the settings options. For now, select **Cancel**.
 
-#### Task 5 - Update or remove an existing role assignment
+### Task 5 - Update or remove an existing role assignment
 
 Follow these steps to update or remove an existing role assignment.
 
