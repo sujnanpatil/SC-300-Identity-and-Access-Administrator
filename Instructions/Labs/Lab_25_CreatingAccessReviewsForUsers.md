@@ -16,9 +16,7 @@ After completing this lab, you will be able to:
    ![](./media/Lab-25.PNG)
 
 ### Exercise 1 - Create an internal Access review
-Creating an internal Access review involves regularly evaluating and validating the access permissions of users and roles within your organization to maintain security and compliance.
-
-#### Task 1 - Create a new Access review
+In this Exercise you'll learn creating an internal Access review involves regularly evaluating and validating the access permissions of users and roles within your organization to maintain security and compliance.
 
 1. Select the **Show portal menu** hamburger icon and then select **Microsoft Entra ID**.
 
