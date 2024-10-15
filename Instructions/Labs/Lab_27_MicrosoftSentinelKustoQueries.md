@@ -75,7 +75,9 @@ Configuring Microsoft Sentinel for Kusto Queries enables advanced log and securi
 
    ![Screen image displaying the Azure AD roles page with the Settings menu highlighted](./media/lab27-2.png)
 
-   **Note** - The Microsoft Entra ID data connector may take a few minutes to show in the active count. 
+   **Note** - The Microsoft Entra ID data connector may take a few minutes to show in the active count.
+
+   **Note** - If the Connected count isn't displayed after a few minutes, try deleting the connector and then adding it again.
 
 #### Task 3 - Run Kusto query on User activity
 
