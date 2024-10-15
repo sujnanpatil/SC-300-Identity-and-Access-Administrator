@@ -34,7 +34,7 @@ Follow these steps to open the settings for an Azure AD role.
   
 5. Review the list of roles and then, in the **Search by role name (2)**, enter **compliance**.
    
-   ![Screen image displaying the Azure AD roles page with the Settings menu highlighted](./media/set.png)
+   ![Screen image displaying the Azure AD roles page with the Settings menu highlighted](./media/set2.png)
 
 6. In the results, select **Compliance Administrator**.
 
@@ -82,7 +82,7 @@ Follow these steps to make a user eligible for an Azure AD admin role.
 
 6. Select the **Select role** menu and then select **Compliance Administrator**.
 
-7. You can use the **Search role by name** filter to help located a role.
+7. You can use the **Search role by name** filter to help locate a role.
 
 8. Under **Select member(s),** select **No member selected**.
 
