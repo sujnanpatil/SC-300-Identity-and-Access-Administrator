@@ -82,6 +82,8 @@ Creating an internal Access review involves regularly evaluating and validating 
 
 1. Back on **Identity Governance | Access reviews** page refresh page and the access review list will populate with the roles and owners of the reviews.
 
+   ![](./media/sc-image1.png)
+
 1. Members that are being reviewed will receive an email when the review is initiated.
 
 1. Selecting an access review of one of the roles will provide status on these access reviews.
